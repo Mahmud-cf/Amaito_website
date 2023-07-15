@@ -41,7 +41,7 @@ function Contact() {
                         <div>
                           <HiLocationMarker />
                         </div>
-                        <p>SECTOR 07, UTTARA DHAKA 1230.</p>
+                        <p>Arambag, Feni, Chittagong, Bangladesh</p>
                       </div>
                     </div>
                     <div className="contact office-cocation">
@@ -50,27 +50,13 @@ function Contact() {
                         <div>
                           <BsTelephoneFill />
                         </div>
-                        <p>+880 19863 - 06582</p>
+                        <p>+880 1319-864529</p>
                       </div>
                       <div className="d-flex">
                         <div>
                           <MdEmail />
                         </div>
-                        <p>info@creativec-ampus.com</p>
-                      </div>
-                      <div className="d-flex contact-social-media">
-                        <div className="single-social-media">
-                          <FaFacebookF />
-                        </div>
-                        <div className="single-social-media">
-                          <FaInstagram />
-                        </div>
-                        <div className="single-social-media">
-                          <FaLinkedinIn />
-                        </div>
-                        <div className="single-social-media">
-                          <FaTwitter />
-                        </div>
+                        <p> hello@amaitosoft.com</p>
                       </div>
                     </div>
                   </div>

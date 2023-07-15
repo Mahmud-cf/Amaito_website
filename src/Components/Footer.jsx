@@ -20,8 +20,8 @@ function Footer() {
                   <img src={location} alt="" />
                 </div>
                 <div>
-                  <p>Suit 347, Concept Tower,</p>
-                  <p>68-69, Green Rd, Dhaka-1209</p>
+                  <p>Arambag, Feni,</p>
+                  <p>Chittagong, Bangladesh</p>
                 </div>
               </div>
             </div>
@@ -33,8 +33,8 @@ function Footer() {
                   <img src={mail} alt="" />
                 </div>
                 <div>
-                  <p>info@thezoomit.com</p>
-                  <p>thezoomit@gmail.com</p>
+                  <p>hello@amaitosoft.com</p>
+                  <p>official@amaitosoft.com</p>
                 </div>
               </div>
             </div>
@@ -46,8 +46,8 @@ function Footer() {
                   <img src={phone} alt="" />
                 </div>
                 <div>
-                  <p>+880 1711 432 284</p>
-                  <p>+880 1723 890 031</p>
+                  <p>+880 1319-864529</p>
+                  <p>+880 1772064725</p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ function Footer() {
             <div className="col-md-4 col-sm-6">
                 <div className="footer-left-part">
                 <img src={logo} alt="" className="footer-logo" />
-                <p>Amaito Soft is a full-fledged software, website and app creation company located in the capital city of Dhaka. Amaito Soft is known as Creative Website Development Company of Bangladesh.</p>
+                <p>Amaito Soft is a full-fledged software, website and app creation company located in Feni Chittagong. Amaito Soft is known as Creative Website Development Company of Bangladesh.</p>
                 </div>
             </div>
             <div className="col-md-4 col-sm-6">
@@ -71,7 +71,7 @@ function Footer() {
                         <a href="/web-development">WEB DEVELOPMENT</a>
                     </li>
                     <li>
-                        <a href="/ui-design">UI/UX DESIGN</a>
+                        <a href="/ui-ux-design">UI/UX DESIGN</a>
                     </li>
                     <li>
                         <a href="/digital-marketing">DIGITAL MARKETING</a>
@@ -84,14 +84,15 @@ function Footer() {
                 <h5>Follow Us</h5>
                 <div className="social-link-wrapper d-flex">
                     <div className="single-socila-link">
-                        <a href="" target="blank"><img src={facebook} alt="" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100094589978325" target="blank"><img src={facebook} alt="" /></a>
+                    </div>
+                    <div className="single-socila-link">
+                        <a href="https://www.linkedin.com/company/amaito-soft/" target="blank"><img src={linkedin} alt="" /></a>
                     </div>
                     <div className="single-socila-link">
                         <a href="" target="blank" ><img src={instagram} alt="" /></a>
                     </div>
-                    <div className="single-socila-link">
-                        <a href="" target="blank"><img src={linkedin} alt="" /></a>
-                    </div>
+                    
                     <div className="single-socila-link">
                         <a href="" target="blank"><img src={twitter} alt="" /></a>
                     </div>

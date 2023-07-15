@@ -34,11 +34,11 @@ function OtherPageNav() {
             <div className="nav-info-wrapper d-flex">
               <div className="single-nav-info d-flex" >
                 <span><MdLocationOn/></span>
-                <p>suit 347, Concept Tower, 68-69, Green Rd, Dhaka-1209</p>
+                <p>Arambag, Feni, Chittagong, Bangladesh</p>
               </div>
               <div className="single-nav-info d-flex" >
                 <span><FaPhoneAlt/></span>
-                <p>+880 1772-064725</p>
+                <p>+880 1319-864529</p>
               </div>
             </div>
             </div>

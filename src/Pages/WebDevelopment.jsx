@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import { BiCheck } from "react-icons/bi";
 import { AiFillStar } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
+import { RxCross2 } from "react-icons/rx";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
 import Footer from "../Components/Footer";
@@ -49,8 +50,8 @@ function WebDevelopment() {
                   <p>
                   An online face for your startup or established institution is now an absolute necessity. A proper and furnished online face can really make the path straight towards the highest excellence for you. And by online face, we mean a website. Publishing the best possible website is a perfect step for reaching out to your probable customers. It is also a step closer to outrun your competitors. To ensure you have the best website, you will surely want to hand over the task to the country's best web developer company.
                   </p>
-                  <p>Well, if you are someone in Bangladesh and looking for the best web development company in Bangladesh, well, we got you perfectly covered. The best web design company in Dhaka that is highly capable of supplying you with the best deal within a reasonable amount can be ZOOM IT.</p>
-                  <p>Now, you may be wondering why Zoom IT? Well, worry not. Here we are to help you along the way.</p>
+                  <p>Well, if you are someone in Bangladesh and looking for the best web development company in Bangladesh, well, we got you perfectly covered. The best web design company in Dhaka that is highly capable of supplying you with the best deal within a reasonable amount can be Amaito Soft.</p>
+                  <p>Now, you may be wondering why Amaito Soft? Well, worry not. Here we are to help you along the way.</p>
                 </div>
               </div>
               <div className="col-md-5">
@@ -76,65 +77,56 @@ function WebDevelopment() {
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Monthly Package</Card.Title>
+                      <Card.Title>Basic</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>6 Month</div> <div>/50k</div>
+                        <div>14,990 Taka / $199 USD</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck />  Free Domain+Hosting (200MB)
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <RxCross2 />  Domain Name Email Address
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Email Address
                         </li>
                         <li>
-                          <BiCheck /> Library Management
+                          <BiCheck /> Total Page: 5
                         </li>
                         <li>
-                          <BiCheck /> Financial Management
+                          <BiCheck /> Design: Basic
                         </li>
                         <li>
-                          <BiCheck /> Examination Management
+                          <BiCheck /> Technology: As you need
                         </li>
                         <li>
-                          <BiCheck /> Free Management
+                          <RxCross2 /> Logo Design
                         </li>
                         <li>
-                          <BiCheck /> Website Management
+                          <RxCross2 /> Mobile App
                         </li>
                         <li>
-                          <BiCheck /> Online Account Management
+                          <RxCross2 /> Free Update
                         </li>
                         <li>
-                          <BiCheck /> Human Resource Management
+                          <RxCross2 /> Free Training with video tutorial
                         </li>
                         <li>
-                          <BiCheck /> User Management
+                          <BiCheck />  Free Training with video tutorial
                         </li>
                         <li>
-                          <BiCheck /> Result Management
+                          <BiCheck /> Development Time: 5Day
                         </li>
                         <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
+                          <BiCheck /> Renew Charge: 3000Tk (Per Year)
                         </li>
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 
@@ -150,65 +142,56 @@ function WebDevelopment() {
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Yearly Package</Card.Title>
+                      <Card.Title>Standard</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>1 Year</div> <div>/120k</div>
+                        <div>29,990 Taka / $399 USD</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck />  Free Domain+Hosting (200MB)
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck />  Domain Name Email Address
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Email Address
                         </li>
                         <li>
-                          <BiCheck /> Library Management
+                          <BiCheck /> Total Page: 5
                         </li>
                         <li>
-                          <BiCheck /> Financial Management
+                          <BiCheck /> Design: Basic
                         </li>
                         <li>
-                          <BiCheck /> Examination Management
+                          <BiCheck /> Technology: As you need
                         </li>
                         <li>
-                          <BiCheck /> Free Management
+                          <RxCross2 /> Logo Design
                         </li>
                         <li>
-                          <BiCheck /> Website Management
+                          <RxCross2 /> Mobile App
                         </li>
                         <li>
-                          <BiCheck /> Online Account Management
+                          <BiCheck /> Free Update
                         </li>
                         <li>
-                          <BiCheck /> Human Resource Management
+                          <BiCheck /> Free Training with video tutorial
                         </li>
                         <li>
-                          <BiCheck /> User Management
+                          <BiCheck />  Free Training with video tutorial
                         </li>
                         <li>
-                          <BiCheck /> Result Management
+                          <BiCheck /> Development Time: 5Day
                         </li>
                         <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
+                          <BiCheck /> Renew Charge: 3000Tk (Per Year)
                         </li>
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 
@@ -224,65 +207,56 @@ function WebDevelopment() {
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Lifetime Package</Card.Title>
+                      <Card.Title>Advanced</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>Lifetime</div> <div>/180k</div>
+                        <div>54,990 Taka / $599 USD</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck />  Free Domain+Hosting (200MB)
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck />  Domain Name Email Address
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Email Address
                         </li>
                         <li>
-                          <BiCheck /> Library Management
+                          <BiCheck /> Total Page: 5
                         </li>
                         <li>
-                          <BiCheck /> Financial Management
+                          <BiCheck /> Design: Basic
                         </li>
                         <li>
-                          <BiCheck /> Examination Management
+                          <BiCheck /> Technology: As you need
                         </li>
                         <li>
-                          <BiCheck /> Free Management
+                          <RxCross2 /> Logo Design
                         </li>
                         <li>
-                          <BiCheck /> Website Management
+                          <RxCross2 /> Mobile App
                         </li>
                         <li>
-                          <BiCheck /> Online Account Management
+                          <BiCheck /> Free Update
                         </li>
                         <li>
-                          <BiCheck /> Human Resource Management
+                          <BiCheck /> Free Training with video tutorial
                         </li>
                         <li>
-                          <BiCheck /> User Management
+                          <BiCheck />  Free Training with video tutorial
                         </li>
                         <li>
-                          <BiCheck /> Result Management
+                          <BiCheck /> Development Time: 5Day
                         </li>
                         <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
+                          <BiCheck /> Renew Charge: 3000Tk (Per Year)
                         </li>
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 

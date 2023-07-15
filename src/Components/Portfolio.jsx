@@ -9,7 +9,7 @@ function Portfolio() {
         <div className="services-section-wrapper">
           <h1>Portfolio</h1>
           <div className="hr-icon"></div>
-          <p>Our esteemed customers</p>
+          <p>Web Design and Development Portfolio</p>
         </div>
         <div className="portfolio-item-wrapper">
           <div className="row">
@@ -39,7 +39,7 @@ function Portfolio() {
             })}
           </div>
           <div className="portfolio-button text-center">
-            <a href="">
+            <a href="/portfolio">
               See More
             </a>
           </div>

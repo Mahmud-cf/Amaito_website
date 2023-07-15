@@ -13,7 +13,7 @@ function ServicesSection() {
         <div className="services-section-wrapper">
           <h1>Our Services</h1>
           <div className="hr-icon"></div>
-          <p>We are one of the leading IT service provider in Bangladesh</p>
+          <p>The Service We Offer For You</p>
         </div>
         <div className="row">
           <div className="col-md-6 text-center">
@@ -34,11 +34,11 @@ function ServicesSection() {
               <Toggle
                 department="APP DEVELOPMENT"
                 serviceDetails="
-                Our web design service brings your vision to life with stunning visuals and intuitive user interfaces. We create engaging and responsive websites that reflect your brand identity, enhance user experience, and drive conversions. Let us build a captivating online presence for your software company."
+                With a passion for innovation, our skilled app development team brings your ideas to life. From concept to deployment, we create robust, user-friendly mobile apps that maximize functionality, optimize performance, and enhance user satisfaction, helping your business thrive in the mobile-driven world."
               />
               <Toggle
                 department="DIGITAL MARKETING"
-                serviceDetails="Our software development service offers tailored solutions to meet your unique business requirements. From concept to deployment, our team of experts will collaborate with you to develop robust and scalable software applications that streamline operations, enhance productivity, and drive your company's growth."
+                serviceDetails="At Amaito Soft, we are passionate about creating digital marketing strategies that deliver real impact. Our team of digital marketers combines creativity, analytical insights, and industry expertise to develop customized campaigns that enhance brand awareness, drive conversions, and build lasting customer relationships."
               />
             </div>
           </div>

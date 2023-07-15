@@ -80,65 +80,33 @@ With our skilled design crew and vastly experienced management, we can offer you
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Monthly Package</Card.Title>
+                      <Card.Title>Basic</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>6 Month</div> <div>/50k</div>
+                        <div>4000 Taka / 50$</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck /> Design: As you need
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck /> Software: Phothoshop / Figma
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Website Design
                         </li>
                         <li>
-                          <BiCheck /> Library Management
+                          <BiCheck /> App Design
                         </li>
                         <li>
-                          <BiCheck /> Financial Management
+                          <BiCheck /> Themforest Design
                         </li>
-                        <li>
-                          <BiCheck /> Examination Management
-                        </li>
-                        <li>
-                          <BiCheck /> Free Management
-                        </li>
-                        <li>
-                          <BiCheck /> Website Management
-                        </li>
-                        <li>
-                          <BiCheck /> Online Account Management
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> User Management
-                        </li>
-                        <li>
-                          <BiCheck /> Result Management
-                        </li>
-                        <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
-                        </li>
+                        
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 
@@ -154,65 +122,33 @@ With our skilled design crew and vastly experienced management, we can offer you
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Yearly Package</Card.Title>
+                      <Card.Title>Standard</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>1 Year</div> <div>/120k</div>
+                        <div>6000 Taka / 70$</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck /> Design: As you need
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck /> Software: Phothoshop / Figma
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Website Design
                         </li>
                         <li>
-                          <BiCheck /> Library Management
+                          <BiCheck /> App Design
                         </li>
                         <li>
-                          <BiCheck /> Financial Management
+                          <BiCheck /> Themforest Design
                         </li>
-                        <li>
-                          <BiCheck /> Examination Management
-                        </li>
-                        <li>
-                          <BiCheck /> Free Management
-                        </li>
-                        <li>
-                          <BiCheck /> Website Management
-                        </li>
-                        <li>
-                          <BiCheck /> Online Account Management
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> User Management
-                        </li>
-                        <li>
-                          <BiCheck /> Result Management
-                        </li>
-                        <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
-                        </li>
+                        
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 
@@ -228,65 +164,33 @@ With our skilled design crew and vastly experienced management, we can offer you
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Lifetime Package</Card.Title>
+                      <Card.Title>Advanced</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>Lifetime</div> <div>/180k</div>
+                        <div>8000 Taka / 90$</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck /> Design: As you need
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck /> Software: Phothoshop / Figma
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Website Design
                         </li>
                         <li>
-                          <BiCheck /> Library Management
+                          <BiCheck /> App Design
                         </li>
                         <li>
-                          <BiCheck /> Financial Management
+                          <BiCheck /> Themforest Design
                         </li>
-                        <li>
-                          <BiCheck /> Examination Management
-                        </li>
-                        <li>
-                          <BiCheck /> Free Management
-                        </li>
-                        <li>
-                          <BiCheck /> Website Management
-                        </li>
-                        <li>
-                          <BiCheck /> Online Account Management
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> User Management
-                        </li>
-                        <li>
-                          <BiCheck /> Result Management
-                        </li>
-                        <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
-                        </li>
+                        
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 

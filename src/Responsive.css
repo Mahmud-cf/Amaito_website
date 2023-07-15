@@ -524,5 +524,17 @@
         font-size: .8rem;
         margin-top:1.5rem;
     }
+    .single-header-services{
+        padding:.5rem 0;
+    }
+    .single-header-services h5{
+        font-size: 14px;
+    }
+    .coundown-single-item{
+        height: 6rem;
+    }
+    .coundown-single-item h5{
+        margin-top:.5rem;
+    }
     
 }

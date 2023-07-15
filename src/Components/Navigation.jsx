@@ -43,11 +43,11 @@ const Navigation = () => {
             <div className="nav-info-wrapper d-flex">
               <div className="single-nav-info d-flex" >
                 <span><MdLocationOn/></span>
-                <p>suit 347, Concept Tower, 68-69, Green Rd, Dhaka-1209</p>
+                <p>Arambag, Feni, Chittagong, Bangladesh</p>
               </div>
               <div className="single-nav-info d-flex" >
                 <span><FaPhoneAlt/></span>
-                <p>+880 1772-064725</p>
+                <p>+880 1319-864529</p>
               </div>
             </div>
             </div>
@@ -70,7 +70,7 @@ const Navigation = () => {
                         <a href="/ui-ux-design">UI/UX Design</a>
                       </li>
                       <li>
-                        <a href="">Digital Marketing</a>
+                        <a href="/digital-marketing">Digital Marketing</a>
                       </li>
                     </ul>
                   </a>
@@ -90,11 +90,11 @@ const Navigation = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="header-left-part-wrapper">
-              <h1>Website Design & Development</h1>
-              <p>In Bangladesh alone there are about 10 million Internet users. You can easily reach your organization's contacts or products through the website to so many people.</p>
-              <p>We develop website design and web application that puts your business ahead of all challenges. We are giving you the web address of your dreams in a very short time</p>
+              <h1>SmartCode Solutions Amaito Soft</h1>
+              <p>Empowering businesses with cutting-edge software solutions for enhanced productivity, efficiency, and growth in the digital era.</p>
+              <p>Unleashing the power of technology to drive digital transformation and deliver exceptional user experiences through our custom software solutions.</p>
               <div className="button">
-                <a href="/web-development">Know More </a>
+                <a href="/about">Know More </a>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ const Navigation = () => {
           </div>
           <div className="col-md-3 col-sm-6 text-center" style={{backgroundColor:"#92278F"}} >
             <div className="single-header-services">
-              <h5><a href="/ui-design" style={{color:'#fff'}}>UI/UX DESIGN</a></h5>
+              <h5><a href="/ui-ux-design" style={{color:'#fff'}}>UI/UX DESIGN</a></h5>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 text-center" style={{backgroundColor:"#FFDD0A"}}>

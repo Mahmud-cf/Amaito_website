@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import { BiCheck } from "react-icons/bi";
 import { AiFillStar } from "react-icons/ai";
+import { RxCross2 } from "react-icons/rx";
 import { FaStar } from "react-icons/fa";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
@@ -78,65 +79,29 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Monthly Package</Card.Title>
+                      <Card.Title>Basic</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
-                        <div>6 Month</div> <div>/50k</div>
+                        <div>49,990 Taka / $599 USD</div>
                       </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck />  OS Support: 1
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <RxCross2 />  Ad Network Integration: No
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Upload to the marketplace: Yes
                         </li>
                         <li>
-                          <BiCheck /> Library Management
-                        </li>
-                        <li>
-                          <BiCheck /> Financial Management
-                        </li>
-                        <li>
-                          <BiCheck /> Examination Management
-                        </li>
-                        <li>
-                          <BiCheck /> Free Management
-                        </li>
-                        <li>
-                          <BiCheck /> Website Management
-                        </li>
-                        <li>
-                          <BiCheck /> Online Account Management
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> User Management
-                        </li>
-                        <li>
-                          <BiCheck /> Result Management
-                        </li>
-                        <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
+                          <BiCheck /> Include Source Code: Yes
                         </li>
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 
@@ -152,7 +117,7 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Yearly Package</Card.Title>
+                      <Card.Title>Standard</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
                         <div>1 Year</div> <div>/120k</div>
@@ -161,56 +126,20 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck />  OS Support: 1
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck />  Ad Network Integration: No
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Upload to the marketplace: Yes
                         </li>
                         <li>
-                          <BiCheck /> Library Management
-                        </li>
-                        <li>
-                          <BiCheck /> Financial Management
-                        </li>
-                        <li>
-                          <BiCheck /> Examination Management
-                        </li>
-                        <li>
-                          <BiCheck /> Free Management
-                        </li>
-                        <li>
-                          <BiCheck /> Website Management
-                        </li>
-                        <li>
-                          <BiCheck /> Online Account Management
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> User Management
-                        </li>
-                        <li>
-                          <BiCheck /> Result Management
-                        </li>
-                        <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
+                          <BiCheck /> Include Source Code: Yes
                         </li>
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 
@@ -226,7 +155,7 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                       className="text-center"
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
-                      <Card.Title>Lifetime Package</Card.Title>
+                      <Card.Title>Advanced</Card.Title>
                       <Card.Text className="d-flex">
                         {" "}
                         <div>Lifetime</div> <div>/180k</div>
@@ -235,56 +164,20 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Admission Management
+                          <BiCheck />  OS Support: 1
                         </li>
                         <li>
-                          <BiCheck /> Online Class & Exam System
+                          <BiCheck />  Ad Network Integration: No
                         </li>
                         <li>
-                          <BiCheck /> Profile Management
+                          <BiCheck /> Upload to the marketplace: Yes
                         </li>
                         <li>
-                          <BiCheck /> Library Management
-                        </li>
-                        <li>
-                          <BiCheck /> Financial Management
-                        </li>
-                        <li>
-                          <BiCheck /> Examination Management
-                        </li>
-                        <li>
-                          <BiCheck /> Free Management
-                        </li>
-                        <li>
-                          <BiCheck /> Website Management
-                        </li>
-                        <li>
-                          <BiCheck /> Online Account Management
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> User Management
-                        </li>
-                        <li>
-                          <BiCheck /> Result Management
-                        </li>
-                        <li>
-                          <BiCheck /> Branch Control
-                        </li>
-                        <li>
-                          <BiCheck /> Human Resource Management
-                        </li>
-                        <li>
-                          <BiCheck /> Student Attendance Tracking Analytics
-                        </li>
-                        <li>
-                          <BiCheck /> Attendance Management
+                          <BiCheck /> Include Source Code: Yes
                         </li>
                         <li>
                           <AiFillStar /> Include Server & installation
-                          Cost(5000tk)
+                          Cost
                         </li>
                       </ul>
 

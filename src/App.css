@@ -9,7 +9,7 @@
 :root{
     --primary-font: 'Manrope', sans-serif;
     --heading-font: 'Darker Grotesque', sans-serif;
-    --primary-color: rgb(139,1,255);
+    --primary-color: #92278F!important;
     --dark: #171923;
 }
 *{
@@ -150,6 +150,9 @@
   font-weight: 700;
   font-family: var(--heading-font);
   margin-bottom:2.7rem;
+  background: linear-gradient(91.16deg, #8B01FF 20.11%, #F3A632 87.29%, #fc6fd9 143.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .header-left-part-wrapper p{
   font-size: 19px;
@@ -190,7 +193,7 @@
 .countdown-wrapper{
   background-image: url('./assets/discount-bg.png');
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
   border-bottom:3px solid #1F2837
 }
 .counter-main-section{

@@ -13,7 +13,7 @@ function AboutUs() {
           <div className="about-header-wrapper">
             <h2>About Us</h2>
             <p>
-              ZOOM IT is a reputable software company with years of rich
+              Amaito Soft is a reputable software company with years of rich
               experience developing web design development and software for
               their customers on demand.
             </p>
@@ -33,7 +33,7 @@ function AboutUs() {
                   development service organization.
                 </h3>
                 <p>
-                  ZOOM IT offers three main types of services. The first is web
+                  Amaito Soft offers three main types of services. The first is web
                   design and development which includes beautiful and elegant
                   web layout design, converting the design to WordPress theme as
                   per the client's needs or converting to PHP, website

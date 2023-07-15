@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
 import Footer from "../Components/Footer";
-import app_dev from "../assets/iPhone.png";
+import digital from "../assets/digital-marketing.png";
 import Portfolio from "../Components/Portfolio";
 
 function DigitalMarketing() {
@@ -45,19 +45,16 @@ function DigitalMarketing() {
             <div className="row">
               <div className="col-md-7">
                 <div className="service-page-header-details">
-                  <h2>Best App Development Company In Bangladesh</h2>
+                  <h2>Best Digital Marketing Company In Bangladesh</h2>
                   <p>
-                  Want quality mobile application development services within your budget?
-
-Well, you must find out the best app developer in Bangladesh that can deliver applications with stunning UI, incredibly fast loading time, and reliable support.
+                  At Amaito Soft, we are passionate about creating digital marketing strategies that deliver real impact. Our team of digital marketers combines creativity, analytical insights, and industry expertise to develop customized campaigns that enhance brand awareness, drive conversions, and build lasting customer relationships.
                   </p>
-                  <p>Being a remarkable mobile app development company in Bangladesh, we possess both the workforce and the infrastructure to build winning mobile applications.</p>
-                  <p>As you’ve already witnessed our software development capabilities, it’s time for deciding on the plans that suit you better. Apart from the set plans, you can also go for fully customized plans personalized absolutely how you want them.</p>
+                  <p>In the fast-paced digital landscape, our data-driven digital marketing solutions empower businesses to reach their target audience effectively. With our expertise in SEO, PPC, social media marketing, and conversion optimization, we craft compelling campaigns that drive traffic, generate leads, and fuel business growth.</p>
                 </div>
               </div>
               <div className="col-md-5">
                 <div className="service-page-header-img">
-                  <img src={app_dev} alt="" className="img-fluid" />
+                  <img src={digital} alt="" className="img-fluid" />
                 </div>
               </div>
             </div>
