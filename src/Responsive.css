@@ -239,7 +239,7 @@
         flex-direction: column;
         width:12rem;
         margin-left:auto;
-        background-color: #8B01FF;
+        background-color: #92278F;
     }
     .res-nev .nav-link-wrapper .nav-link{
         border-top:1px solid #363636;
@@ -260,7 +260,7 @@
     cursor: pointer;
     }
     .res-menu-div{
-        background-color: blueviolet;
+        background-color: #92278F;
         padding:.4rem .8rem;
         width:7rem;
         display: flex;
@@ -383,7 +383,7 @@
         flex-direction: column;
         width:12rem;
         margin-left:auto;
-        background-color: #8B01FF;
+        background-color: #92278F;
     }
     .res-nev .nav-link-wrapper .nav-link{
         border-top:1px solid #363636;
@@ -404,7 +404,7 @@
     cursor: pointer;
     }
     .res-menu-div{
-        background-color: blueviolet;
+        background-color: #92278F;
         padding:.4rem .8rem;
         width:7rem;
         display: flex;
