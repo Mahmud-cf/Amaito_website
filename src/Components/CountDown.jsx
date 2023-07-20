@@ -58,7 +58,9 @@ function CountDown() {
                 <div className="countdown-button">
                     <div>
                         <a href="/web-development" style={{background:"#8B01FF", color:'#fff'}} >Web Devlopment</a>
-                        <a href="/app-development" style={{background:"#FFDD0A", color:'#000'}} >App Devlopment</a>
+                        <a href="/app-development" style={{background:"#FC0EA9", color:'#fff'}} >App Devlopment</a>
+                        <a href="/digital-marketing" style={{background:"#92278F", color:'#fff'}} >Digital Marketing</a>
+                        <a href="/ui-ux-design" style={{background:"#FFDD0A", color:'#000'}} >UI/UX Design</a>
                     </div>
                 </div>
             </div>

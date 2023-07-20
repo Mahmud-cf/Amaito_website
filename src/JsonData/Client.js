@@ -16,12 +16,29 @@ import portfolio5 from '../assets/p5.png'
 import portfolio6 from '../assets/p6.png'
 
 
-import app_portfolio1 from '../assets/a1.png'
-import app_portfolio2 from '../assets/a2.png'
-import app_portfolio3 from '../assets/a3.png'
-import app_portfolio4 from '../assets/a4.png'
-import app_portfolio5 from '../assets/a5.png'
-import app_portfolio6 from '../assets/a6.png'
+import app_portfolio1_img1 from '../assets/a1-img1.png'
+import app_portfolio1_img2 from '../assets/a1-img2.png'
+import app_portfolio1_img3 from '../assets/a1-img3.png'
+import app_portfolio1_img4 from '../assets/a1-img4.png'
+import app_portfolio1_img5 from '../assets/a1-img5.png'
+import app_portfolio1_img6 from '../assets/a1-img6.png'
+
+
+import app_portfolio2_img1 from '../assets/app2-img1.png'
+import app_portfolio2_img2 from '../assets/app2-img2.png'
+import app_portfolio2_img3 from '../assets/app2-img3.png'
+import app_portfolio2_img4 from '../assets/app2-img4.png'
+import app_portfolio2_img5 from '../assets/app2-img5.png'
+import app_portfolio2_img6 from '../assets/app2-img6.png'
+import app_portfolio2_img7 from '../assets/app2-img7.png'
+import app_portfolio2_img8 from '../assets/app2-img8.png'
+
+
+import app_portfolio3_img1 from '../assets/app3-img1.png'
+import app_portfolio3_img2 from '../assets/app3-img2.png'
+import app_portfolio3_img3 from '../assets/app3-img3.png'
+import app_portfolio3_img4 from '../assets/app3-img4.png'
+import app_portfolio3_img5 from '../assets/app3-img5.png'
 
  const  clients = [
   {
@@ -97,36 +114,106 @@ export const portfolio = [
     link:'https://quadbittech.com/'
   },
 ]
-export const app_portfolio = [
-  {
-    id:1,
-    title:'E-SHOP',
-    img:app_portfolio1,
-  },
+export const app_portfolio1 = [
   {
     id:2,
     title:'FOREGIN LANGUAGE',
-    img:app_portfolio2,
+    img:app_portfolio1_img2,
   },
+  {
+    id:1,
+    title:'E-SHOP',
+    img:app_portfolio1_img1,
+  },
+  
   {
     id:3,
     title:'C PARTS',
-    img:app_portfolio3,
+    img:app_portfolio1_img3,
   },
   {
     id:4,
     title:'Ahmed ASSOCIATES',
-    img:app_portfolio4,
+    img:app_portfolio1_img4,
   },
   {
     id:5,
     title:'TARGET SOACHING',
-    img:app_portfolio5,
+    img:app_portfolio1_img5,
   },
   {
     id:6,
     title:'QUADBIT TECH',
-    img:app_portfolio6,
+    img:app_portfolio1_img6,
+  },
+]
+export const app_portfolio3 = [
+  {
+    id:1,
+    title:'E-SHOP',
+    img:app_portfolio3_img1,
+  },
+  {
+    id:2,
+    title:'FOREGIN LANGUAGE',
+    img:app_portfolio3_img2,
+  },
+  {
+    id:3,
+    title:'C PARTS',
+    img:app_portfolio3_img3,
+  },
+  {
+    id:4,
+    title:'Ahmed ASSOCIATES',
+    img:app_portfolio3_img4,
+  },
+  {
+    id:5,
+    title:'TARGET SOACHING',
+    img:app_portfolio3_img5,
+  },
+]
+export const app_portfolio2 = [
+  {
+    id:1,
+    title:'E-SHOP',
+    img:app_portfolio2_img1,
+  },
+  {
+    id:2,
+    title:'FOREGIN LANGUAGE',
+    img:app_portfolio2_img2,
+  },
+  {
+    id:3,
+    title:'C PARTS',
+    img:app_portfolio2_img3,
+  },
+  {
+    id:4,
+    title:'Ahmed ASSOCIATES',
+    img:app_portfolio2_img4,
+  },
+  {
+    id:5,
+    title:'TARGET SOACHING',
+    img:app_portfolio2_img5,
+  },
+  {
+    id:6,
+    title:'QUADBIT TECH',
+    img:app_portfolio2_img6,
+  },
+  {
+    id:7,
+    title:'QUADBIT TECH',
+    img:app_portfolio2_img7,
+  },
+  {
+    id:6,
+    title:'QUADBIT TECH',
+    img:app_portfolio2_img8,
   },
 ]
 

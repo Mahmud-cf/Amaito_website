@@ -52,7 +52,7 @@ function HomeServices() {
                 <img src={ux_design} alt="" />
               </div>
               <div className="service-name">
-              <a href="/ui-design">UI/UX Design</a>
+              <a href="/ui-ux-design">UI/UX Design</a>
                 <p>
                 Transform your digital presence with compelling UI/UX design solutions.
                 </p>

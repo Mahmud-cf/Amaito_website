@@ -92,7 +92,7 @@ const Navigation = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="header-left-part-wrapper">
-              <h1>SmartCode Solutions Amaito Soft</h1>
+              <h1>Amaito Soft</h1>
               <p>Empowering businesses with cutting-edge software solutions for enhanced productivity, efficiency, and growth in the digital era.</p>
               <p>Unleashing the power of technology to drive digital transformation and deliver exceptional user experiences through our custom software solutions.</p>
               <div className="button">

@@ -80,54 +80,35 @@ function WebDevelopment() {
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Basic</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>14,990 Taka / $199 USD</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck />  Free Domain+Hosting (200MB)
+                          <span className="check" ><BiCheck /></span>  Free Domain+Hosting (200MB)
                         </li>
                         <li>
-                          <RxCross2 />  Domain Name Email Address
+                          <span className="check" ><BiCheck /></span>Domain Name
                         </li>
                         <li>
-                          <BiCheck /> Email Address
+                          <span className="check" ><BiCheck /></span> Email Address
                         </li>
                         <li>
-                          <BiCheck /> Total Page: 5
+                          <span className="check" ><BiCheck /></span> Total pages: 5
                         </li>
                         <li>
-                          <BiCheck /> Design: Basic
+                          <span className="check" ><BiCheck /></span> Design: Basic
                         </li>
                         <li>
-                          <BiCheck /> Technology: As you need
+                          <span className="check" ><BiCheck /></span> Technology: As you need
                         </li>
                         <li>
-                          <RxCross2 /> Logo Design
+                          <span className="check" ><BiCheck /></span> Logo Design
                         </li>
                         <li>
-                          <RxCross2 /> Mobile App
+                          <span className="check" ><BiCheck /></span> Development Time: 5 days
                         </li>
                         <li>
-                          <RxCross2 /> Free Update
-                        </li>
-                        <li>
-                          <RxCross2 /> Free Training with video tutorial
-                        </li>
-                        <li>
-                          <BiCheck />  Free Training with video tutorial
-                        </li>
-                        <li>
-                          <BiCheck /> Development Time: 5Day
-                        </li>
-                        <li>
-                          <BiCheck /> Renew Charge: 3000Tk (Per Year)
-                        </li>
-                        <li>
-                          <AiFillStar /> Include Server & installation
+                          <AiFillStar style={{color:'#000'}} /> Include Server & installation
                           Cost
                         </li>
                       </ul>
@@ -145,54 +126,35 @@ function WebDevelopment() {
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Standard</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>29,990 Taka / $399 USD</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
-                        <li>
-                          <BiCheck />  Free Domain+Hosting (200MB)
+                      <li>
+                          <span className="check" ><BiCheck /></span>  Free Domain+Hosting (200MB)
                         </li>
                         <li>
-                          <BiCheck />  Domain Name Email Address
+                          <span className="check" ><BiCheck /></span>Domain Name
                         </li>
                         <li>
-                          <BiCheck /> Email Address
+                          <span className="check" ><BiCheck /></span> Email Address
                         </li>
                         <li>
-                          <BiCheck /> Total Page: 5
+                          <span className="check" ><BiCheck /></span> Total pages: 10
                         </li>
                         <li>
-                          <BiCheck /> Design: Basic
+                          <span className="check" ><BiCheck /></span> Design: Standard
                         </li>
                         <li>
-                          <BiCheck /> Technology: As you need
+                          <span className="check" ><BiCheck /></span> Technology: As you need
                         </li>
                         <li>
-                          <RxCross2 /> Logo Design
+                          <span className="check" ><BiCheck /></span> Logo Design
                         </li>
                         <li>
-                          <RxCross2 /> Mobile App
+                          <span className="check" ><BiCheck /></span> Development Time: 10 days
                         </li>
                         <li>
-                          <BiCheck /> Free Update
-                        </li>
-                        <li>
-                          <BiCheck /> Free Training with video tutorial
-                        </li>
-                        <li>
-                          <BiCheck />  Free Training with video tutorial
-                        </li>
-                        <li>
-                          <BiCheck /> Development Time: 5Day
-                        </li>
-                        <li>
-                          <BiCheck /> Renew Charge: 3000Tk (Per Year)
-                        </li>
-                        <li>
-                          <AiFillStar /> Include Server & installation
+                          <AiFillStar style={{color:'#000'}} /> Include Server & installation
                           Cost
                         </li>
                       </ul>
@@ -210,54 +172,35 @@ function WebDevelopment() {
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Advanced</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>54,990 Taka / $599 USD</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
-                        <li>
-                          <BiCheck />  Free Domain+Hosting (200MB)
+                      <li>
+                          <span className="check" ><BiCheck /></span>  Free Domain+Hosting (200MB)
                         </li>
                         <li>
-                          <BiCheck />  Domain Name Email Address
+                          <span className="check" ><BiCheck /></span>Domain Name
                         </li>
                         <li>
-                          <BiCheck /> Email Address
+                          <span className="check" ><BiCheck /></span> Email Address
                         </li>
                         <li>
-                          <BiCheck /> Total Page: 5
+                          <span className="check" ><BiCheck /></span> Total pages: 15
                         </li>
                         <li>
-                          <BiCheck /> Design: Basic
+                          <span className="check" ><BiCheck /></span> Design: Advance
                         </li>
                         <li>
-                          <BiCheck /> Technology: As you need
+                          <span className="check" ><BiCheck /></span> Technology: As you need
                         </li>
                         <li>
-                          <RxCross2 /> Logo Design
+                          <span className="check" ><BiCheck /></span> Logo Design
                         </li>
                         <li>
-                          <RxCross2 /> Mobile App
+                          <span className="check" ><BiCheck /></span> Development Time: 15 days
                         </li>
                         <li>
-                          <BiCheck /> Free Update
-                        </li>
-                        <li>
-                          <BiCheck /> Free Training with video tutorial
-                        </li>
-                        <li>
-                          <BiCheck />  Free Training with video tutorial
-                        </li>
-                        <li>
-                          <BiCheck /> Development Time: 5Day
-                        </li>
-                        <li>
-                          <BiCheck /> Renew Charge: 3000Tk (Per Year)
-                        </li>
-                        <li>
-                          <AiFillStar /> Include Server & installation
+                          <AiFillStar style={{color:'#000'}} /> Include Server & installation
                           Cost
                         </li>
                       </ul>

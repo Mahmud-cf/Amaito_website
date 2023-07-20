@@ -83,33 +83,25 @@ With our skilled design crew and vastly experienced management, we can offer you
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Basic</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>4000 Taka / 50$</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Design: As you need
+                          <span className="check" ><BiCheck /></span> Design: As you need
                         </li>
                         <li>
-                          <BiCheck /> Software: Phothoshop / Figma
+                        <span className="check" ><BiCheck /></span> Software: Phothoshop / Figma
                         </li>
                         <li>
-                          <BiCheck /> Website Design
+                        <span className="check" ><BiCheck /></span> Website Design
                         </li>
                         <li>
-                          <BiCheck /> App Design
+                        <span className="check" ><BiCheck /></span> App Design
                         </li>
                         <li>
-                          <BiCheck /> Themforest Design
+                        <span className="check" ><BiCheck /></span> Themforest Design
                         </li>
                         
-                        <li>
-                          <AiFillStar /> Include Server & installation
-                          Cost
-                        </li>
                       </ul>
 
                       <Modal />
@@ -125,33 +117,25 @@ With our skilled design crew and vastly experienced management, we can offer you
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Standard</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>6000 Taka / 70$</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Design: As you need
+                        <span className="check" ><BiCheck /></span> Design: As you need
                         </li>
                         <li>
-                          <BiCheck /> Software: Phothoshop / Figma
+                        <span className="check" ><BiCheck /></span> Software: Phothoshop / Figma
                         </li>
                         <li>
-                          <BiCheck /> Website Design
+                        <span className="check" ><BiCheck /></span> Website Design
                         </li>
                         <li>
-                          <BiCheck /> App Design
+                        <span className="check" ><BiCheck /></span> App Design
                         </li>
                         <li>
-                          <BiCheck /> Themforest Design
+                        <span className="check" ><BiCheck /></span> Themforest Design
                         </li>
                         
-                        <li>
-                          <AiFillStar /> Include Server & installation
-                          Cost
-                        </li>
                       </ul>
 
                       <Modal />
@@ -167,32 +151,23 @@ With our skilled design crew and vastly experienced management, we can offer you
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Advanced</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>8000 Taka / 90$</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
                         <li>
-                          <BiCheck /> Design: As you need
+                        <span className="check" ><BiCheck /></span> Design: As you need
                         </li>
                         <li>
-                          <BiCheck /> Software: Phothoshop / Figma
+                        <span className="check" ><BiCheck /></span> Software: Phothoshop / Figma
                         </li>
                         <li>
-                          <BiCheck /> Website Design
+                        <span className="check" ><BiCheck /></span> Website Design
                         </li>
                         <li>
-                          <BiCheck /> App Design
+                        <span className="check" ><BiCheck /></span> App Design
                         </li>
                         <li>
-                          <BiCheck /> Themforest Design
-                        </li>
-                        
-                        <li>
-                          <AiFillStar /> Include Server & installation
-                          Cost
+                        <span className="check" ><BiCheck /></span> Themforest Design
                         </li>
                       </ul>
 

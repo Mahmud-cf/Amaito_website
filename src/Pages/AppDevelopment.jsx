@@ -74,7 +74,7 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
           </div>
           <div className="packeg-wrapper">
             <div className="row">
-              <div className="col-md-4 col-sm-6">
+            <div className="col-md-4 col-sm-6">
                 <div className="single-packge-wrapper">
                   <Card>
                     <Card.Header
@@ -82,27 +82,20 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Basic</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>49,990 Taka / $599 USD</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
-                        <li>
-                          <BiCheck />  OS Support: 1
+                      <li>
+                          <span className="check" ><BiCheck /></span>OS Support: 1
                         </li>
                         <li>
-                          <RxCross2 />  Ad Network Integration: No
+                          <span className="cross" ><BiCheck /></span>Include Source Code: no
                         </li>
                         <li>
-                          <BiCheck /> Upload to the marketplace: Yes
+                          <span className="check" ><BiCheck /></span> Include Server & installation Cost
                         </li>
                         <li>
-                          <BiCheck /> Include Source Code: Yes
-                        </li>
-                        <li>
-                          <AiFillStar /> Include Server & installation
+                          <AiFillStar style={{color:'#000'}} /> Include Server & installation
                           Cost
                         </li>
                       </ul>
@@ -120,27 +113,20 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Standard</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>1 Year</div> <div>/120k</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
-                        <li>
-                          <BiCheck />  OS Support: 1
+                      <li>
+                          <span className="check" ><BiCheck /></span>OS Support: 1
                         </li>
                         <li>
-                          <BiCheck />  Ad Network Integration: No
+                          <span className="cross" ><BiCheck /></span>Include Source Code: no
                         </li>
                         <li>
-                          <BiCheck /> Upload to the marketplace: Yes
+                          <span className="check" ><BiCheck /></span> Include Server & installation Cost
                         </li>
                         <li>
-                          <BiCheck /> Include Source Code: Yes
-                        </li>
-                        <li>
-                          <AiFillStar /> Include Server & installation
+                          <AiFillStar style={{color:'#000'}} /> Include Server & installation
                           Cost
                         </li>
                       </ul>
@@ -158,27 +144,20 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
                       style={{ borderBottom: "1px solid #f8fafc14" }}
                     >
                       <Card.Title>Advanced</Card.Title>
-                      <Card.Text className="d-flex">
-                        {" "}
-                        <div>Lifetime</div> <div>/180k</div>
-                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
-                        <li>
-                          <BiCheck />  OS Support: 1
+                      <li>
+                          <span className="check" ><BiCheck /></span>OS Support: 1
                         </li>
                         <li>
-                          <BiCheck />  Ad Network Integration: No
+                          <span className="check" ><BiCheck /></span>Include Source Code: no
                         </li>
                         <li>
-                          <BiCheck /> Upload to the marketplace: Yes
+                          <span className="check" ><BiCheck /></span> Include Server & installation Cost
                         </li>
                         <li>
-                          <BiCheck /> Include Source Code: Yes
-                        </li>
-                        <li>
-                          <AiFillStar /> Include Server & installation
+                          <AiFillStar style={{color:'#000'}} /> Include Server & installation
                           Cost
                         </li>
                       </ul>

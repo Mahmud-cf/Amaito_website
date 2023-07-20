@@ -8,6 +8,7 @@ function PortfolioPage() {
     <div>
       <OtherPageNav />
       <div className="container-fluid portfolio-header">
+        <div className="about-bg-color">
         <div className="container">
           <div className="about-header-wrapper">
             <h2>Portfolio</h2>
@@ -18,6 +19,7 @@ function PortfolioPage() {
               tutorials on how to use it after application development.
             </p>
           </div>
+        </div>
         </div>
       </div>
       <Portfolio/>
