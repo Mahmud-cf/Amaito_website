@@ -50,6 +50,7 @@ function Portfolio() {
         <div className="portfolio-item-wrapper app-portfolio">
           <div className="row">
             <div className="col-md-4 col-sm-6">
+              <div style={{marginTop:'2rem'}} >
               <div className="app-porofolio-single-item">
                 {app_portfolio1.map((item) => {
                   return (
@@ -68,12 +69,14 @@ function Portfolio() {
                 })}
               </div>
               <div className="portfolio-item-name">
-                      <a href='' target="blank">
-                        FOODHUB
-                      </a>
-                    </div>
+                <a href="" target="blank">
+                  FOODHUB
+                </a>
+              </div>
+              </div>
             </div>
             <div className="col-md-4 col-sm-6">
+              <div style={{marginTop:'2rem'}} >
               <div className="app-porofolio-single-item">
                 {app_portfolio2.map((item) => {
                   return (
@@ -92,34 +95,37 @@ function Portfolio() {
                 })}
               </div>
               <div className="portfolio-item-name">
-                      <a href='' target="blank">
-                        EDUMATE
-                      </a>
-                    </div>
+                <a href="" target="blank">
+                  EDUMATE
+                </a>
+              </div>
+              </div>
             </div>
             <div className="col-md-4 col-sm-6">
-              <div className="app-porofolio-single-item">
-                {app_portfolio3.map((item) => {
-                  return (
-                    <div key={item.id}>
-                      <div className="portfolio-single-item-wrapper">
-                        <div className="portfolio-img-wrapper">
-                          <img
-                            src={item.img}
-                            alt=""
-                            className="img-fluid app-portfolio-img"
-                          />
+              <div style={{marginTop:"2rem"}} >
+                <div className="app-porofolio-single-item">
+                  {app_portfolio3.map((item) => {
+                    return (
+                      <div key={item.id}>
+                        <div className="portfolio-single-item-wrapper">
+                          <div className="portfolio-img-wrapper">
+                            <img
+                              src={item.img}
+                              alt=""
+                              className="img-fluid app-portfolio-img"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
+                </div>
+                <div className="portfolio-item-name">
+                  <a href="" target="blank">
+                    WALLETMIX
+                  </a>
+                </div>
               </div>
-              <div className="portfolio-item-name">
-                      <a href='' target="blank">
-                        WALLETMIX
-                      </a>
-                    </div>
             </div>
           </div>
         </div>
