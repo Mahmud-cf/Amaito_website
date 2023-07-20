@@ -11,7 +11,8 @@ import twitter from "../assets/twitter.png";
 function Footer() {
   return (
     <div className="container-fluid footer-wrapper">
-      <div className="container">
+      <div className="footer-bg-color">
+        <div className="container">
         <div className="row footer-contact">
           <div className="col-xl-4 col-md-6 md-d-none">
             <div className="footer-contact-single-item">
@@ -102,6 +103,7 @@ function Footer() {
         </div>
       </div>
       <br /><br /><br /><br />
+      </div>
     </div>
   );
 }

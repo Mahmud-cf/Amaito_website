@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
 import Footer from "../Components/Footer";
-import ui from "../assets/ui.png";
+import ui from "../assets/ui.svg";
 import Portfolio from "../Components/Portfolio";
 
 function UiDesign() {
@@ -40,6 +40,7 @@ function UiDesign() {
     <div className="full-bg-color">
       <OtherPageNav />
       <div className="service-page-header container-fluid">
+        <div className="about-bg-color">
         <div className="container">
           <div className="about-header-wrapper">
             <div className="row">
@@ -64,6 +65,7 @@ With our skilled design crew and vastly experienced management, we can offer you
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div className="container-fluid school-management-wrapper">

@@ -207,6 +207,14 @@
     .footer-section{
         padding-left:0;
     } 
+    .rocket {
+        margin-top:0rem;
+        width:70%;
+        text-align: center;
+    }
+    .make-business .row .col-md-6{
+        text-align: center;
+    }
 }
 @media screen and (min-width:400px) and (max-width:600px) {
     *{
@@ -351,6 +359,33 @@
     .footer-section{
         padding-left:0;
     } 
+    .rocket {
+        margin-top:0rem;
+        width:90%;
+        text-align: center;
+        margin-left:.5rem;
+    }
+    .make-business-details h2{
+        font-size: 1.85rem;
+    }
+    .make-business .row .col-md-6{
+        text-align: center;
+    }
+    .compatative-sign-wrapper .compatative-sign{
+        margin-right:4px;
+        width:1rem;
+        height: 1rem;
+    }
+    .compatative-sign-wrapper .compatative-sign svg{
+        font-size: 12px;
+    }
+    .compatative-sign-wrapper h6{
+        font-size: 12px;
+    }
+    .project-title{
+        font-size: 15px;
+        padding:.3rem .9rem;
+    }
 }
 @media screen and  (max-width:400px) {
     *{
@@ -535,6 +570,33 @@
     }
     .coundown-single-item h5{
         margin-top:.5rem;
+    }
+    .make-business-details h2{
+        font-size: 1.85rem;
+    }
+    .make-business .row .col-md-6{
+        text-align: center;
+    }
+    .compatative-sign-wrapper .compatative-sign{
+        margin-right:4px;
+        width:1rem;
+        height: 1rem;
+    }
+    .compatative-sign-wrapper .compatative-sign svg{
+        font-size: 12px;
+    }
+    .compatative-sign-wrapper h6{
+        font-size: 12px;
+    }
+    .project-title{
+        font-size: 15px;
+        padding:.3rem .9rem;
+    }
+    .rocket {
+        margin-top:0rem;
+        width:100%;
+        text-align: center;
+        margin-left:.5rem;
     }
     
 }

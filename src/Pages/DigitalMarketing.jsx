@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
 import Footer from "../Components/Footer";
-import digital from "../assets/digital-marketing.png";
+import digital from "../assets/marketing.svg";
 import Portfolio from "../Components/Portfolio";
 
 function DigitalMarketing() {
@@ -40,6 +40,7 @@ function DigitalMarketing() {
     <div className="full-bg-color">
       <OtherPageNav />
       <div className="service-page-header container-fluid">
+        <div className="about-bg-color">
         <div className="container">
           <div className="about-header-wrapper">
             <div className="row">
@@ -59,6 +60,7 @@ function DigitalMarketing() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div className="container-fluid school-management-wrapper">

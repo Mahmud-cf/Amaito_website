@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from "../assets/logo.png";
+import shape4 from "../assets/shape4.png";
+import shape5 from "../assets/shape5.png";
 import web_d_img from "../assets/computer.svg";
 import {  FaPhoneAlt } from 'react-icons/fa';
 import {  MdLocationOn } from 'react-icons/md';

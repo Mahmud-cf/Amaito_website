@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
   }
   .contact-header-bg{
-    background-color: #8d01ffba;
+    background-color: rgba(102, 51, 153, 0.476);
     padding:8rem 0;
     padding-top:10rem;
     display: flex;
@@ -37,12 +37,9 @@
     font-weight: 700;
     font-family: var(--primary-font);
   }
-.contact-main-section-wrapper{
-    background-color: var(--bg-dark);
-}
+
 .contact-main-section{
     padding:4rem 0;
-    color:var(--white)
 }
 .office-cocation{
     padding:1.5rem;
@@ -92,7 +89,7 @@
 }
 .contact-form-wrapper input, .contact-form-wrapper textarea{
     border: none;
-    background-image: linear-gradient(0deg, #a6aed7, #c7cce2 );
+    background: linear-gradient(115deg,rgb(15,197,239,.2) .9554140127388535% , rgb(252, 110, 217, .2) 100%);
 }
 
 

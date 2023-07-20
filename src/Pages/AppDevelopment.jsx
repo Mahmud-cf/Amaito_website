@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
 import Footer from "../Components/Footer";
-import app_dev from "../assets/iPhone.png";
+import app_dev from "../assets/app.svg";
 import Portfolio from "../Components/Portfolio";
 
 function AppDevelopment() {
@@ -41,6 +41,7 @@ function AppDevelopment() {
     <div className="full-bg-color">
       <OtherPageNav />
       <div className="service-page-header container-fluid">
+        <div className="about-bg-color">
         <div className="container">
           <div className="about-header-wrapper">
             <div className="row">
@@ -63,6 +64,7 @@ Well, you must find out the best app developer in Bangladesh that can deliver ap
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div className="container-fluid school-management-wrapper">

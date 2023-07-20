@@ -9,6 +9,7 @@ function AboutUs() {
     <div>
       <OtherPageNav />
       <div className="container-fluid about-us-header-wrapper">
+        <div className="about-bg-color">
         <div className="container">
           <div className="about-header-wrapper">
             <h2>About Us</h2>
@@ -18,6 +19,7 @@ function AboutUs() {
               their customers on demand.
             </p>
           </div>
+        </div>
         </div>
       </div>
       <div className="container-fluid about-page-about-section">

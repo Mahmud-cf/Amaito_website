@@ -7,7 +7,7 @@ import { RxCross2 } from "react-icons/rx";
 import Modal from "../SmallComponent/Modal";
 import OtherPageNav from "../Components/OtherPageNav";
 import Footer from "../Components/Footer";
-import web_dev from "../assets/web-dev.png";
+import web_dev from "../assets/web.svg";
 import Portfolio from "../Components/Portfolio";
 
 function WebDevelopment() {
@@ -41,6 +41,7 @@ function WebDevelopment() {
     <div className="full-bg-color">
       <OtherPageNav />
       <div className="service-page-header container-fluid">
+        <div className="about-bg-color">
         <div className="container">
           <div className="about-header-wrapper">
             <div className="row">
@@ -61,6 +62,7 @@ function WebDevelopment() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div className="container-fluid school-management-wrapper">

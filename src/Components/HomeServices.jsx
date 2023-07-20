@@ -3,111 +3,85 @@ import computer from "../assets/computer.png";
 import code from "../assets/code.png";
 import gallery from "../assets/gallery.png";
 import choice from "../assets/choice.png";
+import grow from "../assets/why-huble.avif";
 import ServicesSection from "./ServicesSection";
 import OurClient from "./OurClient";
+import shape1 from "../assets/shape_1-1.png";
+import WorkProcess from "./WorkProcess";
+import web_d from "../assets/web-d.png";
+import app_d from "../assets/app-d.png";
+import ux_design from "../assets/ux-design.png";
+import marketing from "../assets/marketing.png";
 
 function HomeServices() {
   return (
     <div>
-        <div className="container-fluid">
-      <div className="container">
-        <div className="section-one">
-          <div className="section-one-wrapper">
-            <div className="row align-center">
-              <div className="col-xl-4 col-12">
-                <div className="section-one-right-part">
-                  <h1>Why Choose Amaito Soft?</h1>
-                  <p>
-                    Amaito Soft started off with a group of experts. Within a
-                    few days the IT world has established itself through
-                    improved work quality and customer satisfaction. The
-                    specialty of Amaito Soft is that they do not submit jobs
-                    until they are satisfied with a task. We are interested in
-                    talking about your project. Stay tuned.
-                  </p>
-                </div>
+      <div className="container-fluid section-2-wrapper">
+        <div className="container">
+        <div className="row">
+          <div className="col-md-3 col-sm-6">
+            <div className="service-single-item">
+              <div className="service-image-wrapper">
+                <img src={web_d} alt="" />
               </div>
-              <div className="col-xl-8 col-12">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div
-                      className="why-chosse-single-item"
-                      style={{ backgroundColor: "#8B01FF", color:'#fff' }}
-                    >
-                      <div className="d-flex">
-                        <div className="home-service-icon" >
-                          <img src={computer} alt="" />
-                        </div>
-                        <h4>Mobile Responsive</h4>
-                      </div>
-                      <p>
-                        As our website looks attractive from a computer, it can
-                        be easily used with mobiles, tablets and tabs.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div
-                      className="why-chosse-single-item"
-                      style={{ backgroundColor: "#e0eeee", marginTop:'4rem' }}
-                    >
-                      <div className="d-flex">
-                        <div className="home-service-icon" style={{color:"#ddd"}}>
-                          <img src={code} alt="" />
-                        </div>
-                        <h4>Clean Code</h4>
-                      </div>
-                      <p>
-                        Non-commented and unobtrusive code makes future editing
-                        of applications difficult. View source can see how well
-                        our code is organized.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div
-                      className="why-chosse-single-item"
-                      style={{ backgroundColor: "#e0eeee", marginTop:'-4rem' }}
-                    >
-                      <div className="d-flex">
-                        <div className="home-service-icon" style={{color:"#ddd"}}>
-                          <img src={gallery} alt="" />
-                        </div>
-                        <h4>User Friendly</h4>
-                      </div>
-                      <p>
-                      If the user can not use our developed applications then what is the benefit of making these nonsense? So we have to try how to make them user friendly.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div
-                      className="why-chosse-single-item"
-                      style={{ backgroundColor: "#8B01FF", color:'#fff' }}
-                    >
-                      <div className="d-flex">
-                        <div className="home-service-icon" >
-                          <img src={choice} alt="" />
-                        </div>
-                        <h4>Right Guidelines</h4>
-                      </div>
-                      <p>
-                      We listen to the needs of our clients and give them the right guidance as well as make video tutorials on how to use it after application development.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="service-name">
+                <a href="/web-development">Web Development</a>
+                <p>
+                  Customized web development solutions tailored to your business
+                  needs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="service-single-item">
+              <div className="service-image-wrapper">
+                <img src={app_d} alt="" />
+              </div>
+              <div className="service-name">
+              <a href="/app-development">App Development</a>
+                <p>
+                Expert app development services for seamless digital experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="service-single-item">
+              <div className="service-image-wrapper">
+                <img src={ux_design} alt="" />
+              </div>
+              <div className="service-name">
+              <a href="/ui-design">UI/UX Design</a>
+                <p>
+                Transform your digital presence with compelling UI/UX design solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="service-single-item">
+              <div className="service-image-wrapper">
+                <img src={marketing} alt="" />
+              </div>
+              <div className="service-name">
+              <a href="/digital-marketing">Digital Marketing</a>
+                <p>
+                  
+Strategic digital marketing solutions to boost your online presence.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        
-      </div>
-    </div>
-    <div className="services-section">
-            <ServicesSection/>
-            <OurClient/>
         </div>
+      </div>
+
+      <div className="services-section">
+        <ServicesSection />
+        <WorkProcess />
+        <OurClient />
+      </div>
     </div>
   );
 }

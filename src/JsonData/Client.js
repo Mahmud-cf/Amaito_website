@@ -8,12 +8,20 @@ import img7 from '../assets/13.png'
 import img8 from '../assets/14.png'
 
 
-import portfolio1 from '../assets/1.jpg'
-import portfolio2 from '../assets/2.jpg'
-import portfolio3 from '../assets/3.jpg'
-import portfolio4 from '../assets/4.jpg'
-import portfolio5 from '../assets/5.jpg'
-import portfolio6 from '../assets/6.jpg'
+import portfolio1 from '../assets/p1.png'
+import portfolio2 from '../assets/p2.png'
+import portfolio3 from '../assets/p3.png'
+import portfolio4 from '../assets/p4.png'
+import portfolio5 from '../assets/p5.png'
+import portfolio6 from '../assets/p6.png'
+
+
+import app_portfolio1 from '../assets/a1.png'
+import app_portfolio2 from '../assets/a2.png'
+import app_portfolio3 from '../assets/a3.png'
+import app_portfolio4 from '../assets/a4.png'
+import app_portfolio5 from '../assets/a5.png'
+import app_portfolio6 from '../assets/a6.png'
 
  const  clients = [
   {
@@ -54,39 +62,71 @@ import portfolio6 from '../assets/6.jpg'
 export const portfolio = [
   {
     id:1,
-    title:'MIYAKO ECOMMERCE',
+    title:'E-SHOP',
     img:portfolio1,
-    link:'https://miyako.com.bd/'
+    link:'https://eshooop.netlify.app/'
   },
   {
     id:2,
-    title:'harri-ecommerce',
+    title:'FOREGIN LANGUAGE',
     img:portfolio2,
-    link:'https://harri-ecommerce.netlify.app/'
+    link:'https://foreign-language-camping.web.app/'
   },
   {
     id:3,
-    title:'CHINA CAMPUS NETWORK',
+    title:'C PARTS',
     img:portfolio3,
-    link:'http://ccnbangladesh.com/'
+    link:'https://computer-info-parts.web.app/'
   },
   {
     id:4,
-    title:'TIPTOP MART LTD',
+    title:'Ahmed ASSOCIATES',
     img:portfolio4,
-    link:'https://tiptopmartbd.com/'
+    link:'https://ahmedassociates.vercel.app/'
   },
   {
     id:5,
-    title:'SPICY RAMNA',
+    title:'TARGET SOACHING',
     img:portfolio5,
-    link:'https://spicyramna.com/'
+    link:'https://targetcoachinghome.vercel.app/'
   },
   {
     id:6,
-    title:'DOMIC',
+    title:'QUADBIT TECH',
     img:portfolio6,
-    link:'https://domic.netlify.app/'
+    link:'https://quadbittech.com/'
+  },
+]
+export const app_portfolio = [
+  {
+    id:1,
+    title:'E-SHOP',
+    img:app_portfolio1,
+  },
+  {
+    id:2,
+    title:'FOREGIN LANGUAGE',
+    img:app_portfolio2,
+  },
+  {
+    id:3,
+    title:'C PARTS',
+    img:app_portfolio3,
+  },
+  {
+    id:4,
+    title:'Ahmed ASSOCIATES',
+    img:app_portfolio4,
+  },
+  {
+    id:5,
+    title:'TARGET SOACHING',
+    img:app_portfolio5,
+  },
+  {
+    id:6,
+    title:'QUADBIT TECH',
+    img:app_portfolio6,
   },
 ]
 

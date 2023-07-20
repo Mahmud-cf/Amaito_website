@@ -11,7 +11,6 @@ function Home() {
         <Navigation/>
         <CountDown/>
         <HomeServices/>
-        <Portfolio/>
         <Footer/>
     </div>
   )
