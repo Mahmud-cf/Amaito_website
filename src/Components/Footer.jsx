@@ -2,7 +2,7 @@ import React from "react";
 import location from "../assets/pin.png";
 import mail from "../assets/mail.png";
 import phone from "../assets/phone.png";
-import logo from "../assets/favicon.png";
+import logo from "../assets/logo.png";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
@@ -48,7 +48,7 @@ function Footer() {
                 </div>
                 <div>
                   <p>+880 1319-864529</p>
-                  <p>+880 1772064725</p>
+                  <p>+880 1521203530</p>
                 </div>
               </div>
             </div>

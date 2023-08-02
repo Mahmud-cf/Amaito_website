@@ -6,7 +6,7 @@ function CountDown() {
     const [min, setMin] = useState(0)
     const [sec, setSec] = useState(0)
 
-    const dedline = 'July, 30, 2023'
+    const dedline = 'August, 30, 2023'
 
     const getTime = () => {
         const time = Date.parse(dedline)-Date.now()

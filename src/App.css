@@ -13,6 +13,7 @@
     --dark: #171923;
     --bg-dark: #040e41;
     --white: #e2e8f0;
+    --gradient: linear-gradient(115deg,#B5272D .9554140127388535%,#FFB94D 100%);
 }
 *{
   margin:0;
@@ -153,7 +154,7 @@
   font-weight: 700;
   font-family: var(--heading-font);
   margin-bottom:2.7rem;
-  background: linear-gradient(91.16deg, #8B01FF 20.11%, #F3A632 87.29%, #fc6fd9 143.41%);
+  background: linear-gradient(91.16deg,#8B01FF 20.11%,#F3A632 87.29%,#fc6fd9 143.41%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -655,7 +656,7 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
 }
 
 .footer-main-section .footer-logo{
-  width:4rem;
+  width:15rem;
   
 }
 .footer-main-section .footer-left-part p{
