@@ -13,7 +13,8 @@
     --dark: #171923;
     --bg-dark: #040e41;
     --white: #e2e8f0;
-    --gradient: linear-gradient(115deg,#B5272D .9554140127388535%,#FFB94D 100%);
+    --primary-blue: #05ACF3;
+    --gradient:linear-gradient(115deg,#04ADF4 .9554140127388535%,#FFDD0A, #ED151D 140%);
 }
 *{
   margin:0;
@@ -29,14 +30,15 @@
 }
 .shape-1{
   --tw-blur: blur(24px);
-    background-color: #fc6fd9;
+    background-color: var(--primary-blue);
     border-radius: 50%;
-    -webkit-filter: blur(100px);
+    -webkit-filter: blur(50px);
     height: 280px;
     position: absolute;
     left: -15%;
     top: 30%;
     width: 280px;
+    opacity: .2;
 }
 .shape-2 .rotate-img{
   width:7rem;
@@ -81,7 +83,7 @@
 }
 .nav-info-bg{
   background-color: var(--primary-color);
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
 }
 .nav-info-wrapper .single-nav-info{
   color: #fff;
@@ -96,7 +98,7 @@
 }
 .nav-wrapper{
   background-color: #fff;
-  box-shadow: rgba(249, 85, 189, 0.4) 5px 3px, rgba(250, 144, 211, 0.3) 10px 6px, rgba(250, 175, 223, 0.2) 15px 10px,rgba(250, 238, 246, 0.1) 20px 13px, rgba(240, 46, 170, 0.05) 25px 16px;
+  box-shadow: rgba(195, 233, 249, 0.4) 5px 3px, rgba(166, 190, 200, 0.3) 10px 6px, rgba(201, 210, 214, 0.2) 15px 10px,rgb(5, 173, 243, .1) 20px 13px, rgb(199, 222, 232, .05) 25px 16px;
 }
 .other-page-nav-wrapper .nav-wrapper{
   box-shadow: none;
@@ -126,6 +128,7 @@
   padding-left:0;
   margin-top:.8rem;
   display: none;
+  z-index: 1;
 }
 .dropdown-service:hover .nav-drowdown-wrapper{
   display: block;
@@ -135,7 +138,7 @@
   border-top:1px solid #ddd;
 }
 .nav-drowdown-wrapper li:hover{
-  background-color: var(--primary-color);
+  background-color: var(--primary-blue);
   color:#fff;
 }
 .nav-drowdown-wrapper li:hover a{
@@ -146,10 +149,13 @@
 }
 
 .header-under-wrapper{
-  padding-top:5.7rem;
+  padding-top:2.7rem;
   padding-bottom:5.7rem;
 }
-.header-left-part-wrapper h1{
+.header-left-part-wrapper{
+  padding-top:3rem;
+}
+/* .header-left-part-wrapper h1{
   font-size: 36px;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -157,7 +163,37 @@
   background: linear-gradient(91.16deg,#8B01FF 20.11%,#F3A632 87.29%,#fc6fd9 143.41%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+} */
+.header-left-part-wrapper h1
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #C62A2E 0%,
+    #89B56C 29%,
+    #FFB94D 67%,
+     #04AFF5 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
 }
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
 .header-left-part-wrapper p{
   font-size: 19px;
   line-height: 22px;
@@ -173,8 +209,11 @@
   color:#fff;
   border-radius: 5rem;
   text-decoration: none;
-  margin-top:1.4rem;
+  margin-top:1.4rem; 
 }
+
+
+
 .header-services-wrapper{
   border-top:1px solid #ddd;
   border-bottom:1px solid #ddd;
@@ -192,6 +231,71 @@
   text-transform: uppercase;
 }
 
+/* ======================HEADER CODE SYNTEXT CSS ===================== */
+
+.header-right-part{
+  position: relative;
+}
+.header-right-part .header-right-shape-1{
+  --tw-blur: blur(24px);
+  background-color: #05AEF4;
+  border-radius: 0%;
+  -webkit-filter: blur(40px);
+  position: absolute;
+  left: -15%;
+  top: 30%;
+  width: 80px;
+  height:400px;
+  left:70%;
+  rotate: 45deg;
+  top:-20%;
+  opacity: .2;
+}
+.amaito-jsx{
+  width:10rem;
+  align-items: center;
+  padding:6px;
+  border:2px solid #ddd;
+  margin-bottom:-10px;
+  border-radius: 7px 7px 0 0;
+}
+.amaito-jsx img{
+  width:1rem;
+  height:1rem;
+}
+.amaito-jsx span{
+  font-size: 14px;
+  padding-left:10px;
+  color:#57647C
+}
+.typewrighter-code-section{
+  text-align: left;
+}
+pre{
+  background-color: inherit!important;
+  border:2px solid #ddd;
+  border-radius: 0px 10px 10px 10px;
+  padding-left:0px!important;
+  padding-bottom:1rem!important;
+}
+pre code span:nth-child(3), pre code span:nth-child(18), pre code span:nth-child(31), pre code span:nth-child(34), pre code span:nth-child(45), pre code span:nth-child(65), pre code span:nth-child(81), pre code span:nth-child(91), pre code span:nth-child(96), pre code span:nth-child(103), pre code span:nth-child(109), pre code span:nth-child(125), pre code span:nth-child(131), pre code span:nth-child(136), pre code span:nth-child(141){
+  color:#a9a9a9!important
+}
+pre code span{
+  font-size: 14px!important;
+}
+pre code span:nth-child(120){
+  padding:2px;
+  background-color: #1990B8;
+  color:#fff;
+  border-radius: 5px;
+}
+pre code span:nth-child(55), pre code span:nth-child(71), pre code span:nth-child(76), pre code span:nth-child(86){
+  background: inherit!important;
+}
+pre code span:nth-child(5), pre code span:nth-child(13), pre code span:nth-child(20), pre code span:nth-child(26), pre code span:nth-child(36), pre code span:nth-child(47), pre code span:nth-child(67), pre code span:nth-child(98), pre code span:nth-child(143), pre code span:nth-child(145) {
+  color:rgb(141, 3, 253)!important;
+}
 
   /* ====================HEADER PART END ===================== */
   /* =================COUNTER SECTION START =================== */
@@ -249,10 +353,6 @@
 }
 
 
-
-
-
-
   /* ==============SECTION ONE / OUR SERVICES PART START ====================== */
 
 .section-2-wrapper{
@@ -273,7 +373,7 @@
   align-items: center;
 }
 .section-2-wrapper .service-single-item:hover .service-image-wrapper{
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
   transition: .4s;
 }
 .section-2-wrapper .service-single-item img{
@@ -291,7 +391,7 @@
   text-decoration: none;
 }
 .section-2-wrapper .service-single-item .service-name a:hover{
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -301,11 +401,6 @@
     line-height: 27px;
   text-align: center;
 }
-
-
-
-
-
 
 
 /* ===============SECTINO TWO WORK PROCESS START================== */
@@ -352,7 +447,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
   border-radius: 4px;
   margin-right:10px
 }
@@ -363,14 +458,6 @@
 .align-center {
   align-items: center;
 }
-
-
-
-
-
-
-
-
 
 .home-page-service-section{
   padding-top:3rem;
@@ -384,7 +471,7 @@
 .services-section-wrapper .hr-icon{
   height: 5px;
     width: 85px;
-    background: var(--primary-color);
+    background: var(--primary-blue);
     border-radius: 2px;
     position: relative;
     margin-left: 20px;
@@ -403,8 +490,8 @@
     height: 5px;
     width: 5px;
     border-radius: 50%;
-    background-color: var(--primary-color);
-    box-shadow: 9px 0 0 0 var(--primary-color), 18px 0 0 0 var(--primary-color);
+    background-color: var(--primary-blue);
+    box-shadow: 9px 0 0 0 var(--primary-blue), 18px 0 0 0 var(--primary-blue);
 }
 .services-section-wrapper p{
   font-size: 18px;
@@ -469,7 +556,7 @@
   font-weight: 600;
   font-family: var(--heading-font);
   font-size: 22px;
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
   color:#fff;
   margin-top:1rem;
   padding:.5rem 1rem;
@@ -486,7 +573,7 @@
   margin-top:3rem;
   border-radius: 3rem;
   text-decoration: none;
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
 }
 .all-project-button-wrapper .view-project:hover{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -502,7 +589,7 @@
   margin-bottom:1.5rem;
 }
 .portfolio-item-name{
-  background: linear-gradient(115deg,#FC0EA9 .9554140127388535%,#FFDD0A 100%);
+  background: var(--gradient);
   padding:.5rem;
   text-align: center;
 }
@@ -602,14 +689,6 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
 
 
 
-
-
-
-
-
-
-
-
 /* ================FOOTER PART START ================== */
 
 .footer-wrapper{
@@ -621,7 +700,7 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
   padding:0;
 }
 .footer-bg-color{
-  background-color: rgb(4, 14, 65, .8);
+  background-color: rgba(4, 29, 65, 0.8);
   margin-top:7rem;
   padding-top:7rem;
 }
@@ -629,14 +708,14 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   background-color: #fff;
   padding:1.5rem 2rem;
-  border-left: 6px solid var(--primary-color);
+  border-left: 6px solid var(--primary-blue);
   padding-left:3rem;
   margin-top:-10rem;
   
 }
 .footer-contact-icon{
   display: inline-block;
-  background-color: rgba(102, 51, 153, 0.476);
+  background-color: #1990b86a;
   margin-right:1rem;
   width:2.2rem;
   height: 2.2rem;
@@ -683,10 +762,10 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
   border: 1px solid #ddd;
   margin-bottom:.4rem;
   padding:.4rem 1rem;
-  border-left:5px solid var(--primary-color)
+  border-left:5px solid var(--primary-blue)
 }
 .footer-section ul li:hover{
-  background-color: #3710aa9e;
+  background-color: #1990b86c;
 }
 .footer-section ul li a{
   font-size: .8rem;
@@ -714,8 +793,7 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
   align-items: center;
 }
 .about-bg-color{
-  /* background-color: rgb(4, 14, 65, .8); */
-  background: linear-gradient(115deg,rgb(252, 14, 169,.7) .9554140127388535%,rgb(255, 222, 10, .7) 100%);
+  background: linear-gradient(115deg,rgb(4, 173, 244, .7) .9554140127388535%,rgb(255, 222, 10, .7), rgb(237, 21, 29, .7) 140%) ;
 }
 .about-header-wrapper{
   padding:6rem 0;
@@ -749,7 +827,7 @@ app-porofolio-single-item .portfolio-img-wrapper:hover .portfolio-link{
   text-align: center;
   border: 1px solid #ddd;
   min-height: 217px;
-  border-bottom:4px solid var(--primary-color)
+  border-bottom:4px solid var(--primary-blue)
 }
 .about-page-services-wrapper .about-page-single-service h5{
   font-size: 1.5rem;

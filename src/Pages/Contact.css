@@ -23,8 +23,7 @@
     background-repeat: no-repeat;
   }
   .contact-header-bg{
-    /* background-color: rgba(102, 51, 153, 0.476); */
-    background: linear-gradient(115deg,rgb(252, 14, 169,.9) .9554140127388535%,rgb(255, 222, 10, .9) 100%);
+    background: linear-gradient(115deg,rgb(4, 173, 244, .7) .9554140127388535%,rgb(255, 222, 10, .7), rgb(237, 21, 29, .7) 140%) ;
     padding:8rem 0;
     padding-top:10rem;
     display: flex;
@@ -90,7 +89,7 @@
 }
 .contact-form-wrapper input, .contact-form-wrapper textarea{
     border: none;
-    background: linear-gradient(115deg,rgb(252, 14, 169,.2) .9554140127388535%,rgb(255, 222, 10, .2) 100%);
+    background: linear-gradient(115deg,rgb(4, 173, 244, .1) .9554140127388535%,rgb(255, 222, 10, .1), rgb(237, 21, 29, .1) 140%) ;
 }
 
 

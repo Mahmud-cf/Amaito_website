@@ -26,29 +26,29 @@ function CountDown() {
         <div className="container">
             <div className="counter-main-section text-center">
                 <h2>Up to 50% discount</h2>
-                <h2 style={{color:'#92278F'}} >throughout the month of July</h2>
+                <h2 style={{color:'#92278F'}} >throughout the month of August</h2>
                 <div className="col-md-11 col-xl-8 offset-xl-2 offset-md-1">
                 <div className="row">
                     <div className="col-md-3 col-6">
-                        <div className='coundown-single-item' style={{background:'#8B01FF'}} >
+                        <div className='coundown-single-item' style={{background:'#70AA4D'}} >
                         <span>{day < 10 ? '0'+day: day }</span>
                         <h5>DAYS</h5>
                         </div>
                     </div>
                     <div className="col-md-3 col-6">
-                        <div className='coundown-single-item' style={{background:'#FC0EA9'}} >
+                        <div className='coundown-single-item' style={{background:'#1990B8'}} >
                         <span>{hour < 10 ? '0'+hour: hour }</span>
                         <h5>HOURES</h5>
                         </div>
                     </div>
                     <div className="col-md-3 col-6">
-                        <div className='coundown-single-item'  style={{background:'#92278f'}} >
+                        <div className='coundown-single-item'  style={{background:'#C8282D'}} >
                         <span>{min < 10 ? '0'+min: min }</span>
                         <h5>MINUTES</h5>
                         </div>
                     </div>
                     <div className="col-md-3 col-6">
-                        <div className='coundown-single-item' style={{background:'#FFDD0A',color:'#000'}} >
+                        <div className='coundown-single-item' style={{background:'#FFB84D',color:'#000'}} >
                         <span>{sec < 10 ? '0'+sec: sec }</span>
                         <h5>SECONDS</h5>
                         </div>
@@ -57,10 +57,10 @@ function CountDown() {
                 </div>
                 <div className="countdown-button">
                     <div>
-                        <a href="/web-development" style={{background:"#8B01FF", color:'#fff'}} >Web Devlopment</a>
-                        <a href="/app-development" style={{background:"#FC0EA9", color:'#fff'}} >App Devlopment</a>
-                        <a href="/digital-marketing" style={{background:"#92278F", color:'#fff'}} >Digital Marketing</a>
-                        <a href="/ui-ux-design" style={{background:"#FFDD0A", color:'#000'}} >UI/UX Design</a>
+                        <a href="/web-development" style={{background:"#70AA4D", color:'#fff'}} >Web Devlopment</a>
+                        <a href="/app-development" style={{background:"#1990B8", color:'#fff'}} >App Devlopment</a>
+                        <a href="/digital-marketing" style={{background:"#C8282D", color:'#fff'}} >Digital Marketing</a>
+                        <a href="/ui-ux-design" style={{background:"#FFB84D", color:'#000'}} >UI/UX Design</a>
                     </div>
                 </div>
             </div>
