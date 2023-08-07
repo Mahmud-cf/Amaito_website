@@ -25,7 +25,7 @@ function CountDown() {
     <div className='container-fluid countdown-wrapper' >
         <div className="container">
             <div className="counter-main-section text-center">
-                <h2>Up to 50% discount</h2>
+                <h2>Up to 10% discount</h2>
                 <h2 style={{color:'#92278F'}} >throughout the month of August</h2>
                 <div className="col-md-11 col-xl-8 offset-xl-2 offset-md-1">
                 <div className="row">

@@ -18,7 +18,8 @@ const Navigation = () => {
   };
 
   return (
-    <div className="header-wrapper container-fluid">
+    <div className="header-wrapper container-fluid"  >
+      <div className="" >
       <div className="header-bg-1">
         <div className="shape-1"></div>
         <div className="shape-2">
@@ -107,7 +108,7 @@ const Navigation = () => {
             <div className="container">
               <div className="header-under-wrapper text-center">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-lg-6">
                     <div className="header-left-part-wrapper">
                       <h1>Amaito Soft</h1>
                       <p>
@@ -120,9 +121,6 @@ const Navigation = () => {
                         transformation and deliver exceptional user experiences
                         through our custom software solutions.
                       </p>
-                      {/* <div className="button">
-                <a href="/about" className="bubbly-button" >Know More </a>
-              </div> */}
 
                       <div class="wrapper">
                         <div class="link_wrapper">
@@ -139,7 +137,7 @@ const Navigation = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-lg-6">
                     <div className="header-right-part">
                       <div className="header-right-shape-1"></div>
                       <div className="d-flex amaito-jsx">
@@ -209,6 +207,7 @@ const Navigation = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

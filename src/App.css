@@ -23,10 +23,11 @@
   font-family: var(--primary-font);
 }
 .header-wrapper{
-  background-image: url('./assets/graph.png');
+  background-image: url('./assets/grap-paper.png');
   background-position: center center;
   background-repeat:repeat;
   padding:0;
+  /* background-color:rgb(11, 25, 43) */
 }
 .shape-1{
   --tw-blur: blur(24px);
@@ -99,6 +100,7 @@
 .nav-wrapper{
   background-color: #fff;
   box-shadow: rgba(195, 233, 249, 0.4) 5px 3px, rgba(166, 190, 200, 0.3) 10px 6px, rgba(201, 210, 214, 0.2) 15px 10px,rgb(5, 173, 243, .1) 20px 13px, rgb(199, 222, 232, .05) 25px 16px;
+  background-color: #28365e;
 }
 .other-page-nav-wrapper .nav-wrapper{
   box-shadow: none;
@@ -110,15 +112,16 @@
   padding:.4rem ;
   display: inline-block;
   padding: 11px 15px;
-  color: #222;
+  color: #ecebeb;
     display: block;
     font-family: var(--primary-font);
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
+    
 }
 .nav-link-wrapper .active{
-  color:var(--primary-color)
+  color:var(--primary-blue)
 }
 
 .nav-drowdown-wrapper{
@@ -148,10 +151,14 @@
   font-size: 14px;
 }
 
+.header-padding{
+  padding:0 3rem;
+}
 .header-under-wrapper{
   padding-top:2.7rem;
   padding-bottom:5.7rem;
 }
+
 .header-left-part-wrapper{
   padding-top:3rem;
 }
@@ -197,6 +204,7 @@
 .header-left-part-wrapper p{
   font-size: 19px;
   line-height: 22px;
+  color:#ecebeb;
 }
 .header-right-part img{
   width:60%;
@@ -247,7 +255,7 @@
   width: 80px;
   height:400px;
   left:70%;
-  rotate: 45deg;
+  rotate: -45deg;
   top:-20%;
   opacity: .2;
 }
@@ -255,7 +263,7 @@
   width:10rem;
   align-items: center;
   padding:6px;
-  border:2px solid #ddd;
+  border:2px solid #dddddd2a;
   margin-bottom:-10px;
   border-radius: 7px 7px 0 0;
 }
@@ -273,16 +281,17 @@
 }
 pre{
   background-color: inherit!important;
-  border:2px solid #ddd;
+  border:2px solid #dddddd2a;
   border-radius: 0px 10px 10px 10px;
   padding-left:0px!important;
   padding-bottom:1rem!important;
 }
 pre code span:nth-child(3), pre code span:nth-child(18), pre code span:nth-child(31), pre code span:nth-child(34), pre code span:nth-child(45), pre code span:nth-child(65), pre code span:nth-child(81), pre code span:nth-child(91), pre code span:nth-child(96), pre code span:nth-child(103), pre code span:nth-child(109), pre code span:nth-child(125), pre code span:nth-child(131), pre code span:nth-child(136), pre code span:nth-child(141){
-  color:#a9a9a9!important
+  color:#dddddd57!important
 }
 pre code span{
   font-size: 14px!important;
+  line-height: 1.25rem!important;
 }
 pre code span:nth-child(120){
   padding:2px;
@@ -294,8 +303,23 @@ pre code span:nth-child(55), pre code span:nth-child(71), pre code span:nth-chil
   background: inherit!important;
 }
 pre code span:nth-child(5), pre code span:nth-child(13), pre code span:nth-child(20), pre code span:nth-child(26), pre code span:nth-child(36), pre code span:nth-child(47), pre code span:nth-child(67), pre code span:nth-child(98), pre code span:nth-child(143), pre code span:nth-child(145) {
-  color:rgb(141, 3, 253)!important;
+  color:var(--primary-blue)!important;
 }
+
+pre code span:nth-child(7),pre code span:nth-child(9), pre code span:nth-child(11),pre code span:nth-child(22), pre code span:nth-child(23), pre code span:nth-child(24), pre code span:nth-child(39), pre code span:nth-child(40), pre code span:nth-child(42), pre code span:nth-child(49), pre code span:nth-child(50), pre code span:nth-child(51), pre code span:nth-child(52), pre code span:nth-child(53), pre code span:nth-child(58), pre code span:nth-child(62), pre code span:nth-child(74), pre code span:nth-child(73), pre code span:nth-child(78), pre code span:nth-child(84), pre code span:nth-child(86), pre code span:nth-child(87), pre code span:nth-child(88), pre code span:nth-child(90), pre code span:nth-child(93), pre code span:nth-child(100), pre code span:nth-child(7), pre code span:nth-child(105), pre code span:nth-child(107), pre code span:nth-child(110), pre code span:nth-child(115), pre code span:nth-child(117), pre code span:nth-child(119), pre code span:nth-child(121), pre code span:nth-child(123), pre code span:nth-child(126), pre code span:nth-child(128), pre code span:nth-child(133), pre code span:nth-child(138), pre code span:nth-child(147){
+  color:#ecebeb!important
+}
+
+
+pre code span:nth-child(60), pre code span:nth-child(106), pre code span:nth-child(111), pre code span:nth-child(114), pre code span:nth-child(116), pre code span:nth-child(122), pre code span:nth-child(127){
+  color:rgb(250, 82, 82)!important
+}
+
+
+
+
+
+
 
   /* ====================HEADER PART END ===================== */
   /* =================COUNTER SECTION START =================== */

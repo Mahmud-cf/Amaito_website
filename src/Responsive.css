@@ -35,9 +35,12 @@
         margin-top:.5rem;
     }
     .header-under-wrapper{
-        padding-top:4rem;
+        padding-top:1rem;
         padding-bottom: 4rem;
     }
+    .wrapper{
+        transform: translate(0%, -22%);
+      }
     .header-left-part-wrapper h1{
         margin-bottom:1.4rem;
     }
@@ -85,7 +88,7 @@
         font-size: 13px;
     }
 }
-@media screen and (min-width:600px) and (max-width:778px) {
+@media screen and (min-width:600px) and (max-width:768px) {
     *{
         max-width: 100%;
     }
@@ -97,6 +100,10 @@
         padding-top:4rem;
         padding-bottom: 4rem;
     }
+    .wrapper{
+        transform: translate(-0%, -22%);
+        margin-bottom:2.5rem!important;
+      }
     .header-left-part-wrapper h1{
         margin-bottom:1.4rem;
     }
@@ -113,10 +120,10 @@
         flex-direction: column;
         width:12rem;
         margin-left:auto;
-        background-color: #8B01FF;
+        background-color: #05ABF4;
     }
     .res-nev .nav-link-wrapper .nav-link{
-        border-top:1px solid #363636;
+        border-top:1px solid #878686;
     }
     .res-nev .nav-link-wrapper .nav-link a{
         color:#fff;
@@ -134,7 +141,7 @@
     cursor: pointer;
     }
     .res-menu-div{
-        background-color: blueviolet;
+        background-color: #05ABF4;
         padding:.4rem .8rem;
         width:7rem;
         display: flex;
@@ -227,8 +234,9 @@
         min-width: 10rem;
         margin-top:.5rem;
     }
+    
     .header-under-wrapper{
-        padding-top:4rem;
+        padding-top:2rem;
         padding-bottom: 4rem;
     }
     .header-left-part-wrapper h1{
@@ -247,10 +255,10 @@
         flex-direction: column;
         width:12rem;
         margin-left:auto;
-        background-color: #92278F;
+        background-color: #05ABF4;
     }
     .res-nev .nav-link-wrapper .nav-link{
-        border-top:1px solid #363636;
+        border-top:1px solid #878787;
     }
     .res-nev .nav-link-wrapper .nav-link a{
         color:#fff;
@@ -267,13 +275,7 @@
     margin-top: -2.5rem;
     cursor: pointer;
     }
-    .res-menu-div{
-        background-color: #92278F;
-        padding:.4rem .8rem;
-        width:7rem;
-        display: flex;
-        border-radius: 5px;
-    }
+    
     .header-left-part-wrapper .button a{
         margin-bottom:2rem;
     }
@@ -386,6 +388,30 @@
         font-size: 15px;
         padding:.3rem .9rem;
     }
+
+    /* =====================UPDATED SECTION 06/08/2023================== */
+    .header-right-part .header-right-shape-1{
+        left:50%;
+    }
+    .wrapper{
+        transform: translate(-0%, -22%);
+        margin-bottom:2.5rem!important;
+      }
+      .res-menu-div{
+        background-color: #05ABF4;
+        padding:.4rem .8rem;
+        width:7rem;
+        display: flex;
+        border-radius: 5px;
+    }
+    .res-nev .nav-link-wrapper{
+        flex-direction: column;
+        width:12rem;
+        margin-left:auto;
+        background-color: #05ABF4;
+    }
+    
+
 }
 @media screen and  (max-width:400px) {
     *{
@@ -604,6 +630,49 @@
     }
     .make-business{
         padding:3rem 0;
+    }
+
+
+    /* =====================UPDATED SECTION 06/08/2023================== */
+    .header-right-part .header-right-shape-1{
+        left:20%;
+    }
+    .wrapper{
+        transform: translate(-0%, -22%);
+        margin-bottom:2.5rem!important;
+      }
+      pre code span{
+        font-size: 12px!important;
+      }
+      .amaito-jsx span{
+        font-size: 13px;
+      }
+      .amaito-jsx img{
+        width:14px;
+        height:14px;
+      }
+      .res-menu-div{
+        background-color: #05ABF4;
+        padding:.4rem .8rem;
+        width:7rem;
+        display: flex;
+        border-radius: 5px;
+    }
+    .res-nev .nav-link-wrapper{
+        flex-direction: column;
+        width:12rem;
+        margin-left:auto;
+        background-color: #05ABF4;
+    }
+    pre code{
+        padding:6px!important;
+    }
+    .wrapper a + .icon{
+        right:-20%
+    }
+    .make-business .row{
+            margin-left: 0rem!important;
+        
     }
     
 }

@@ -1,13 +1,13 @@
 .wrapper{
-  transform: translate(-22%, -22%);
+  transform: translate(-19%, -22%);
   width:200px;
   margin:3rem auto;
+  margin-bottom:6rem;
 }
 
 
 .wrapper a{
   display: block;
-  width: 250px;
   height: 50px;
   line-height: 50px;
   font-weight: bold;
@@ -20,6 +20,10 @@
   border: 3px solid #1990B8;
   transition: all .35s;
   border-radius: 1rem 0 1rem 0;
+  width: 200px;
+  border: 3px solid #1990B8;
+  background: transparent;
+  color: #1990B8;
 }
 
 .icon{
@@ -45,13 +49,18 @@
 }
 
 .wrapper a:hover{
-  width: 200px;
+  width: 250px;
   border: 3px solid #1990B8;
-  background: transparent;
-  color: #1990B8;
+  background-color: #1990B8;
+  color:#fff;
 }
 
-.wrapper a:hover + .icon{
+.wrapper a + .icon{
   border: 3px solid #1990B8;
   right: -25%;
+}
+.wrapper a:hover + .icon{
+  border: none;
+  right: -25%;
+  transition: 0;
 }
