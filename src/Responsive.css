@@ -674,5 +674,12 @@
             margin-left: 0rem!important;
         
     }
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: var(--swiper-pagination-bottom, 8px);
+        top: var(--swiper-pagination-top, auto);
+        left: 0;
+        width: 100%;
+        bottom:-15%!important;
+    }
     
 }

@@ -144,11 +144,13 @@
   background-color: var(--primary-blue);
   color:#fff;
 }
-.nav-drowdown-wrapper li:hover a{
-  color:#fff;
-}
 .nav-drowdown-wrapper li a{
   font-size: 14px;
+  background-color: #273A61;
+}
+.nav-drowdown-wrapper li:hover a{
+  color:#fff;
+  background-color: var(--primary-blue);
 }
 
 .header-padding{
@@ -191,7 +193,9 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 40px;
+      font-size: 65px;
+      font-family: myfont;
+      font-weight: 600;
 }
 
 @keyframes textclip {
