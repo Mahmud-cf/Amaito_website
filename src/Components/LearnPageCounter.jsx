@@ -25,7 +25,7 @@ function LearnPageCounter() {
     <div className='container-fluid ' >
         <div className="container">
             <div className="counter-main-section text-center">
-                <h2>রেজিস্ট্রেশন এর সময় বাকি আছে</h2>
+                <h2>Registration is still open</h2>
                 <div className="row">
                     <div className="col-md-3 col-6">
                         <div className="seminer-counter">

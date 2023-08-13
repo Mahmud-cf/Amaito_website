@@ -14,37 +14,36 @@ function Learn() {
           <div className="container">
             <div className="row">
                 <div className="learn-title">
-                  <h1>ওয়েব ডিজাইন এন্ড ডেভেলপমেন্ট</h1>
+                  <h1>Web Design and Development</h1>
                   <p>
-                    ডিজিটাল সৃজনশীলতা এবং সাফল্যের প্রশিক্ষণে, <br /> আমরা আছি
-                    আপনার সাথে
+                  In Digital Creativity and Success Training, <br /> We are with you
                   </p>
                   <p>
-                    <span>শেখুন</span> <span>কোড করুন</span>{" "}
-                    <span>ডিজিটাল পরিবেশে ফুটে যান</span>
+                    <span>Learn Code</span> <span>Do The Code</span>{" "}
+                    <span>Build Career</span>
                   </p>
                 </div>
               
             </div>
             <div className="seminer-wrapper">
               <div className="seminer-title">
-                <h1 className="text-center" >ওয়েব ডিজাইন ও ডেভেলপমেন্টে সেমিনার</h1>
+                <h1 className="text-center" >Web Design and Development Seminar</h1>
               </div>
               <div className="row">
                 <div className="col-md-7">
                 <div className="seminer-details">
-                  <h2>ডিজিটাল দুনিয়া নির্মাণে এক দলে</h2>
+                  <h2>In a team to build the digital world</h2>
                   <p>
-                    আমাদের সংস্থা "Amaito Soft" একটি উদ্ভাবনী প্রযুক্তি
-                    কোম্পানি, যা উন্নত ওয়েব ডিজাইন এবং ডেভেলপমেন্টের দিকে
-                    মুখোমুখি থাকে। আমরা গর্বিতভাবে একটি সেমিনার আয়োজন করছি,
-                    যেটি দ্বারা ওয়েব ডিজাইন এবং ডেভেলপমেন্ট বিষয়ে আপনাদের
-                    জ্ঞান এবং দক্ষতা প্রসার করার চেষ্টা করবে।
+                  Our company "Amaito Soft" is an innovative technology
+                     Company, which is towards advanced web design and development
+                     face to face We are proudly organizing a seminar,
+                     That's all about web design and development
+                     Will try to expand knowledge and skills.
                   </p>
-                  <p>সেমিনারের তারিখ ও সময়: 16 আগস্ট 2023, সন্ধ্যা 8:00 টা</p>
-                  <p>সেমিনারে অংশগ্রহণের জন্য নিবন্ধন করুন: <br /> <a className="registrasino-link" target="blank" href="https://www.jotform.com/assign/232242290984054/232242324411037">রেজিস্ট্রেশন লিঙ্ক</a></p>
-                  <p>সেমিনারে আপনাদের স্বাগত জানাই এবং সাথে থাকার জন্য আমরা অপেক্ষা করছি।</p>
-                  <p>আপনার সম্মানিত "Amaito Soft"</p>
+                  <p>Seminar Date & Time: 16 August 2023, 8:00 PM</p>
+                  <p>Register to attend the seminar: <br /> <a className="registrasino-link" target="blank" href="https://www.jotform.com/assign/232242290984054/232242324411037">Registration link</a></p>
+                  <p>Welcome to the seminar and we look forward to being with you.</p>
+                  <p>Your esteemed "Amaito Soft"</p>
 
                   
                 </div>
@@ -55,12 +54,12 @@ function Learn() {
                     <img className="img-fluid" src={seminer_img} alt="" />
                     </div>
                     <div className="seminer-time">
-                        <p>সময়: 16 আগস্ট 2023, সন্ধ্যা 8:00 টা</p>
-                        <p>স্পিকার: ইফতিহার মাহমুদ [CEO Amaito Soft]</p>
-                        <p>স্পিকার: অভিষেক দাস [COO Amaito Soft]</p>
+                        <p>Time: 16 August 2023, 8:00 PM</p>
+                        <p>Speaker: Iftihar Mahmood [CEO Amaito Soft]</p>
+                        <p>Speaker: Abhishek Das [COO Amaito Soft]</p>
                     </div>
                     <div className="registrasion-link-wrapper" >
-                        <a target="blank" href="https://www.jotform.com/assign/232242290984054/232242324411037">রেজিস্ট্রেশন করুন</a>
+                        <a target="blank" href="https://www.jotform.com/assign/232242290984054/232242324411037">Register Here</a>
                     </div>
                 </div>
               </div>
