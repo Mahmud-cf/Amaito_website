@@ -6,7 +6,7 @@ function LearnPageCounter() {
     const [min, setMin] = useState(0);
     const [sec, setSec] = useState(0);
 
-    const dedline = Date.parse('August 16, 2023 18:00:00');
+    const dedline = Date.parse('August 20, 2023 18:00:00');
 
     const getTime = () => {
         const time = dedline - Date.now();

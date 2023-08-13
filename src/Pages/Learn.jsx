@@ -40,7 +40,7 @@ function Learn() {
                      That's all about web design and development
                      Will try to expand knowledge and skills.
                   </p>
-                  <p>Seminar Date & Time: 16 August 2023, 8:00 PM</p>
+                  <p>Seminar Date & Time: 20 August 2023, 8:00 PM</p>
                   <p>Register to attend the seminar: <br /> <a className="registrasino-link" target="blank" href="https://www.jotform.com/assign/232242290984054/232242324411037">Registration link</a></p>
                   <p>Welcome to the seminar and we look forward to being with you.</p>
                   <p>Your esteemed "Amaito Soft"</p>
@@ -54,7 +54,7 @@ function Learn() {
                     <img className="img-fluid" src={seminer_img} alt="" />
                     </div>
                     <div className="seminer-time">
-                        <p>Time: 16 August 2023, 8:00 PM</p>
+                        <p>Time: 20 August 2023, 8:00 PM</p>
                         <p>Speaker: Iftihar Mahmood [CEO Amaito Soft]</p>
                         <p>Speaker: Abhishek Das [COO Amaito Soft]</p>
                     </div>
