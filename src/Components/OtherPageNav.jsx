@@ -68,6 +68,7 @@ function OtherPageNav() {
                   </div>
                 <div className="nav-link"><a href="/portfolio">Portfolio</a></div>
                 <div className="nav-link"><a href="/contact">Contact</a></div>
+                <div className="nav-link"><a href="/learn">Learn</a></div>
               </div>
             </div>
           </div>

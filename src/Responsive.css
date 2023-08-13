@@ -87,6 +87,104 @@
     .footer-main-section .footer-left-part p{
         font-size: 13px;
     }
+
+        /* ========EDIT CSS 13/ 08/ 2023============== button nev */
+
+        .nav-drowdown-wrapper li a{
+            background-color: #fff!important;
+        }
+        .nav-drowdown-wrapper li a:hover{
+            background-color: #05ABF4!important;
+        }
+        .logo{
+            min-width: 10rem;
+            margin-top:.5rem;
+        }
+        .header-under-wrapper{
+            padding-top:4rem;
+            padding-bottom: 4rem;
+        }
+        .wrapper{
+            transform: translate(-0%, -22%);
+            margin-bottom:2.5rem!important;
+          }
+        .header-left-part-wrapper h1{
+            margin-bottom:1.4rem;
+        }
+        .header-left-part-wrapper p{
+            font-size: 16px;
+        }
+        .nav-info-bg{
+            display: none;
+        }
+        .nav-wrapper{
+            display: none;
+        }
+        .res-nev .nav-link-wrapper{
+            flex-direction: column;
+            width:12rem;
+            margin-left:auto;
+            background-color: #05ABF4;
+        }
+        .res-nev .nav-link-wrapper .nav-link{
+            border-top:1px solid #878686;
+        }
+        .res-nev .nav-link-wrapper .nav-link a{
+            color:#fff;
+        }
+        .nav-drowdown-wrapper li a{
+            color:#363636!important
+        }
+        .dropdown-service:hover .nav-drowdown-wrapper{
+            margin-top:0rem;
+        }
+        .menu-button{
+            display: inline-block;
+        float: right;
+        margin-top: 1rem;
+        cursor: pointer;
+        }
+        .res-menu-div{
+            background-color: #05ABF4;
+            padding:.4rem .8rem;
+            width:7rem;
+            display: flex;
+            border-radius: 5px;
+        }
+        .header-left-part-wrapper .button a{
+            margin-bottom:2rem;
+        }
+        .why-chosse-single-item{
+            margin-top:1rem!important;
+        }
+        .res-menu-div span{
+            font-size: 16px;
+            font-weight: 500;
+            color:#fff;
+        }
+        .res-menu-div div{
+            margin-top:1px;
+        }
+        .res-menu-div .nav-icon{
+            width:1.4rem;
+            height: 2px;
+            background-color: #fff;
+            margin-top:3px;
+            margin-left:8px
+        }
+        .other-page-nav-wrapper{
+            padding-bottom:12px
+        }
+        .nav-info-wrapper .single-nav-info p{
+            font-size: 11px;
+        }
+        .nav-info-wrapper .single-nav-info{
+            margin-right:0rem;
+        }
+        .nav-info-wrapper .single-nav-info span{
+            font-size: 11px;
+        }
+
 }
 @media screen and (min-width:600px) and (max-width:768px) {
     *{

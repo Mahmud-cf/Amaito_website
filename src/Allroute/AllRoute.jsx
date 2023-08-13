@@ -8,6 +8,7 @@ import DigitalMarketing from '../Pages/DigitalMarketing'
 import UiDesign from '../Pages/UiDesign'
 import Contact from '../Pages/Contact'
 import PortfolioPage from '../Pages/Portfolio'
+import Learn from '../Pages/Learn'
 
 function AllRoute() {
   return (
@@ -20,6 +21,7 @@ function AllRoute() {
             <Route path="/digital-marketing" element={<DigitalMarketing/>} />
             <Route path="/ui-ux-design" element={<UiDesign/>} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/learn" element={<Learn/>} />
             <Route path="/portfolio" element={<PortfolioPage/>} />
         </Routes>
     </BrowserRouter>
