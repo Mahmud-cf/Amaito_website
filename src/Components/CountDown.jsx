@@ -6,7 +6,7 @@ function CountDown() {
     const [min, setMin] = useState(0)
     const [sec, setSec] = useState(0)
 
-    const dedline = 'August, 20, 2023'
+    const dedline = 'September, 30, 2023'
 
     const getTime = () => {
         const time = Date.parse(dedline)-Date.now()
@@ -26,7 +26,7 @@ function CountDown() {
         <div className="container">
             <div className="counter-main-section text-center">
                 <h2>Up to 10% discount</h2>
-                <h2 style={{color:'#92278F'}} >throughout the month of August</h2>
+                <h2 style={{color:'#92278F'}} >throughout the month of September</h2>
                 <div className="col-md-11 col-xl-8 offset-xl-2 offset-md-1">
                 <div className="row">
                     <div className="col-md-3 col-6">
@@ -59,8 +59,8 @@ function CountDown() {
                     <div>
                         <a href="/web-development" style={{background:"#70AA4D", color:'#fff'}} >Web Devlopment</a>
                         <a href="/app-development" style={{background:"#1990B8", color:'#fff'}} >App Devlopment</a>
-                        <a href="/digital-marketing" style={{background:"#C8282D", color:'#fff'}} >Digital Marketing</a>
-                        <a href="/ui-ux-design" style={{background:"#FFB84D", color:'#000'}} >UI/UX Design</a>
+                        {/* <a href="/digital-marketing" style={{background:"#C8282D", color:'#fff'}} >Digital Marketing</a>
+                        <a href="/ui-ux-design" style={{background:"#FFB84D", color:'#000'}} >UI/UX Design</a> */}
                     </div>
                 </div>
             </div>
